@@ -40,7 +40,7 @@
 1	剩	_	VERB	_	_	3	acl	_	SpaceAfter=No
 2	落	_	PART	_	_	1	advmod	_	SpaceAfter=No
 3	呢啲	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
-4	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 5	係	_	AUX	_	_	6	cop	_	SpaceAfter=No
 6	冇用	_	ADJ	_	_	0	root	_	SpaceAfter=No
 7	㗎	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
@@ -122,7 +122,7 @@
 8	新	_	ADJ	_	_	10	amod	_	SpaceAfter=No
 9	一	_	NUM	_	_	10	nummod	_	SpaceAfter=No
 10	集	_	NOUN	_	_	12	amod	_	SpaceAfter=No
-11	嘅	_	PART	_	_	10	case	_	SpaceAfter=No
+11	嘅	_	PART	_	_	10	mark:rel	_	SpaceAfter=No
 12	龍珠	_	PROPN	_	_	7	obj	_	SpaceAfter=No
 13	呀	_	PART	_	_	7	discourse:sp	_	SpaceAfter=No
 14	？	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -298,4 +298,693 @@
 10	走	_	VERB	_	_	1	conj	_	SpaceAfter=No
 11	喇	_	PART	_	_	10	discourse:sp	_	SpaceAfter=No
 12	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 28
+# text = 吖，掰掰喇，同小朋友掰掰。
+1	吖	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	掰掰	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	喇	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+5	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	同	_	ADP	_	_	8	advcl:coverb	_	SpaceAfter=No
+7	小朋友	_	NOUN	_	_	6	obj	_	SpaceAfter=No
+8	掰掰	_	VERB	_	_	3	conj	_	SpaceAfter=No
+9	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 29
+# text = 掰掰！
+1	掰掰	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 30
+# text = 爺爺，我行嘞！
+1	爺爺	_	NOUN	_	_	4	vocative	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+4	行	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	嘞	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+6	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 31
+# text = 爺爺呀，快啲喇！
+1	爺爺	_	NOUN	_	_	4	vocative	_	SpaceAfter=No
+2	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	快	_	ADJ	_	_	0	root	_	SpaceAfter=No
+5	啲	_	ADP	_	_	4	advmod	_	SpaceAfter=No
+6	喇	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 32
+# text = 行得未呀？
+1	行	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	得	_	AUX	_	_	1	aux	_	SpaceAfter=No
+3	未	_	ADV	_	_	1	advmod	_	SpaceAfter=No
+4	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+5	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 33
+# text = 得㗎喇，得㗎喇，係，呢度！好嘞！
+1	得	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	㗎	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	得	_	VERB	_	_	1	conj	_	SpaceAfter=No
+6	㗎	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+7	喇	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+8	，	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	係	_	VERB	_	_	1	conj	_	SpaceAfter=No
+10	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	呢度	_	PRON	_	_	9	obl	_	SpaceAfter=No
+12	！	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	好	_	ADJ	_	_	1	conj	_	SpaceAfter=No
+14	嘞	_	PART	_	_	13	discourse:sp	_	SpaceAfter=No
+15	！	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 34
+# text = OK！
+1	OK	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 35
+# text = 得㗎嘑！
+1	得	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	㗎	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	嘑	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 36
+# text = 超級撒亞人！
+1	超級	_	ADJ	_	_	3	amod	_	SpaceAfter=No
+2	撒亞	_	PROPN	_	_	3	compound	_	SpaceAfter=No
+3	人	_	NOUN	_	_	0	root	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 37
+# text = 戰鬥力超勁！
+1	戰鬥力	_	NOUN	_	_	3	nsubj	_	SpaceAfter=No
+2	超	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+3	勁	_	ADJ	_	_	0	root	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 38
+# text = 爺爺，我行得嘑！
+1	爺爺	_	NOUN	_	_	4	vocative	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	我	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+4	行	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	得	_	AUX	_	_	4	aux	_	SpaceAfter=No
+6	嘑	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 39
+# text = 多多！
+1	多多	_	PROPN	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 40
+# text = 你成日就知道多多！
+1	你	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+2	成日	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	就	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+4	知道	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	多多	_	PROPN	_	_	4	obj	_	SpaceAfter=No
+6	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 41
+# text = 唔好整呀！
+1	唔好	_	AUX	_	_	2	aux	_	SpaceAfter=No
+2	整	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	呀	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 42
+# text = 整出唻呀！
+1	整	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	出唻	_	VERB	_	_	1	compound:dir	_	SpaceAfter=No
+3	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 43
+# text = 斤半！
+1	斤	_	NOUN	_	_	0	root	_	SpaceAfter=No
+2	半	_	NUM	_	_	1	conj	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 44
+# text = 好，收到。
+1	好	_	ADJ	_	_	0	root	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	收	_	VERB	_	_	1	conj	_	SpaceAfter=No
+4	到	_	VERB	_	_	3	compound:vv	_	SpaceAfter=No
+5	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 45
+# text = 走喇，快啲！
+1	走	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	快	_	ADJ	_	_	1	conj	_	SpaceAfter=No
+5	啲	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 46
+# text = 六十六個四。
+1	六十六	_	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	個	_	NOUN	_	_	0	root	_	SpaceAfter=No
+3	四	_	NUM	_	_	2	conj	_	SpaceAfter=No
+4	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 47
+# text = 幾多呀？
+1	幾多	_	PRON	_	_	0	root	_	SpaceAfter=No
+2	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 48
+# text = 六十六個四。
+1	六十六	_	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	個	_	NOUN	_	_	0	root	_	SpaceAfter=No
+3	四	_	NUM	_	_	2	conj	_	SpaceAfter=No
+4	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 49
+# text = 一百。
+1	一百	_	NUM	_	_	0	root	_	SpaceAfter=No
+2	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 50
+# text = 找返你三十⋯⋯
+1	找	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	返	_	VERB	_	_	1	compound:dir	_	SpaceAfter=No
+3	你	_	PRON	_	_	1	iobj	_	SpaceAfter=No
+4	三十	_	NUM	_	_	1	obj	_	SpaceAfter=No
+5	⋯⋯	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 51
+# text = 姐姐呀，啲錢畀我得㗎嘞！
+1	姐姐	_	NOUN	_	_	8	vocative	_	SpaceAfter=No
+2	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	啲	_	NOUN	_	_	5	det	_	SpaceAfter=No
+5	錢	_	NOUN	_	_	6	dislocated	_	SpaceAfter=No
+6	畀	_	VERB	_	_	8	advcl	_	SpaceAfter=No
+7	我	_	PRON	_	_	6	obj	_	SpaceAfter=No
+8	得	_	VERB	_	_	0	root	_	SpaceAfter=No
+9	㗎	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
+10	嘞	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
+11	！	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 52
+# text = 爺爺呀，呢啲畀你嘅！
+1	爺爺	_	NOUN	_	_	5	vocative	_	SpaceAfter=No
+2	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	呢啲	_	PRON	_	_	5	dislocated	_	SpaceAfter=No
+5	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	你	_	PRON	_	_	5	obj	_	SpaceAfter=No
+7	嘅	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+8	！	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 53
+# text = 嗰啲呢？
+1	嗰啲	_	PRON	_	_	0	root	_	SpaceAfter=No
+2	呢	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 54
+# text = 係我㗎！
+1	係	_	AUX	_	_	2	cop	_	SpaceAfter=No
+2	我	_	PRON	_	_	0	root	_	SpaceAfter=No
+3	㗎	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 55
+# text = 佢成日話，冇龍珠閃卡，喺學校就冇朋友。
+1	佢	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
+2	成日	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+3	話	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+5	冇	_	VERB	_	_	12	advcl	_	SpaceAfter=No
+6	龍珠	_	PROPN	_	_	7	compound	_	SpaceAfter=No
+7	閃卡	_	NOUN	_	_	5	obj	_	SpaceAfter=No
+8	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+9	喺	_	VERB	_	_	12	advcl	_	SpaceAfter=No
+10	學校	_	NOUN	_	_	9	obj	_	SpaceAfter=No
+11	就	_	ADV	_	_	12	advmod	_	SpaceAfter=No
+12	冇	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
+13	朋友	_	NOUN	_	_	12	obj	_	SpaceAfter=No
+14	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 56
+# text = 唏！都唔知關咩事。
+1	唏	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+3	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	唔	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+5	知	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	關	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
+7	咩	_	DET	_	_	8	det	_	SpaceAfter=No
+8	事	_	NOUN	_	_	6	obj	_	SpaceAfter=No
+9	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 57
+# text = 係佢冇運啫。
+1	係	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	佢	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
+3	冇	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	運	_	NOUN	_	_	3	obj	_	SpaceAfter=No
+5	啫	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+6	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 58
+# text = 媽咪！
+1	媽咪	_	NOUN	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 59
+# text = 咩事呀？
+1	咩	_	DET	_	_	2	det	_	SpaceAfter=No
+2	事	_	NOUN	_	_	0	root	_	SpaceAfter=No
+3	呀	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+4	？	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 60
+# text = 我默書一百分呀。
+1	我	_	PRON	_	_	4	dislocated	_	SpaceAfter=No
+2	默書	_	VERB	_	_	4	dislocated	_	SpaceAfter=No
+3	一百	_	NUM	_	_	4	nummod	_	SpaceAfter=No
+4	分	_	NOUN	_	_	0	root	_	SpaceAfter=No
+5	呀	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+6	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 61
+# text = 畀我睇下。
+1	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	我	_	PRON	_	_	1	nsubj	_	SpaceAfter=No
+3	睇	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
+4	下	_	PART	_	_	3	advmod	_	SpaceAfter=No
+5	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 62
+# text = 嘩！真係喎！好叻喎！
+1	嘩	_	INTJ	_	_	7	discourse	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+3	真係	_	ADV	_	_	7	conj	_	SpaceAfter=No
+4	喎	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	好	_	ADV	_	_	7	advmod	_	SpaceAfter=No
+7	叻	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	喎	_	PART	_	_	7	discourse:sp	_	SpaceAfter=No
+9	！	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 63
+# text = 好喇！媽咪聽日煮雞翼獎勵你喇，好唔好？
+1	好	_	ADJ	_	_	0	root	_	SpaceAfter=No
+2	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	媽咪	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+5	聽日	_	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No
+6	煮	_	VERB	_	_	1	conj	_	SpaceAfter=No
+7	雞翼	_	NOUN	_	_	6	obj	_	SpaceAfter=No
+8	獎勵	_	VERB	_	_	6	advcl	_	SpaceAfter=No
+9	你	_	PRON	_	_	8	obj	_	SpaceAfter=No
+10	喇	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+11	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	好	_	ADJ	_	_	6	conj	_	SpaceAfter=No
+13	唔	_	ADV	_	_	14	advmod	_	SpaceAfter=No
+14	好	_	ADJ	_	_	12	conj	_	SpaceAfter=No
+15	？	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 64
+# text = 我唔食雞翼嘞，我要零用錢呀。
+1	我	_	PRON	_	_	3	nsubj	_	SpaceAfter=No
+2	唔	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+3	食	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	雞翼	_	NOUN	_	_	3	obj	_	SpaceAfter=No
+5	嘞	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+6	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+7	我	_	PRON	_	_	8	nsubj	_	SpaceAfter=No
+8	要	_	VERB	_	_	3	conj	_	SpaceAfter=No
+9	零用錢	_	NOUN	_	_	8	obj	_	SpaceAfter=No
+10	呀	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
+11	。	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 65
+# text = 噉好喇，媽咪去攞畀你喇，好唔好？
+1	噉	_	ADV	_	_	2	discourse	_	SpaceAfter=No
+2	好	_	ADJ	_	_	0	root	_	SpaceAfter=No
+3	喇	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+4	，	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	媽咪	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+6	去	_	VERB	_	_	2	conj	_	SpaceAfter=No
+7	攞	_	VERB	_	_	6	conj	_	SpaceAfter=No
+8	畀	_	ADP	_	_	9	case	_	SpaceAfter=No
+9	你	_	PRON	_	_	7	obl	_	SpaceAfter=No
+10	喇	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+11	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	好	_	ADJ	_	_	2	conj	_	SpaceAfter=No
+13	唔	_	ADV	_	_	14	advmod	_	SpaceAfter=No
+14	好	_	ADJ	_	_	12	conj	_	SpaceAfter=No
+15	？	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 66
+# text = 乖乖地，唔好搞搞震呀！
+1	乖乖地	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	唔好	_	AUX	_	_	4	aux	_	SpaceAfter=No
+4	搞搞震	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	呀	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+6	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 67
+# text = 你洗手未呀？
+1	你	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
+2	洗	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	手	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+4	未	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	呀	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+6	？	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 68
+# text = 洗咗嘞！
+1	洗	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	咗	_	AUX	_	_	1	aux	_	SpaceAfter=No
+3	嘞	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 69
+# text = 算你喇！
+1	算	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	你	_	PRON	_	_	1	obj	_	SpaceAfter=No
+3	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 70
+# text = 乖乖地要畀心機讀書呀，知唔知呀，繼續？
+1	乖乖地	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	要	_	AUX	_	_	5	aux	_	SpaceAfter=No
+3	畀	_	ADP	_	_	5	advcl:coverb	_	SpaceAfter=No
+4	心機	_	NOUN	_	_	3	obj	_	SpaceAfter=No
+5	讀書	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	呀	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+7	，	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	知	_	VERB	_	_	5	conj	_	SpaceAfter=No
+9	唔	_	ADV	_	_	10	advmod	_	SpaceAfter=No
+10	知	_	VERB	_	_	8	conj	_	SpaceAfter=No
+11	呀	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
+12	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+13	繼續	_	VERB	_	_	5	dislocated	_	SpaceAfter=No
+14	？	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 71
+# text = 知道嘞。
+1	知道	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	嘞	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	。	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 72
+# text = 快啲做功課喇。
+1	快	_	ADJ	_	_	3	advcl	_	SpaceAfter=No
+2	啲	_	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	做	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	功課	_	NOUN	_	_	3	obj	_	SpaceAfter=No
+5	喇	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+6	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 73
+# text = 唔該！十個一緡！
+1	唔該	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	十	_	NUM	_	_	6	nummod	_	SpaceAfter=No
+4	個	_	NOUN	_	_	6	clf	_	SpaceAfter=No
+5	一	_	NUM	_	_	6	nummod	_	SpaceAfter=No
+6	緡	_	NOUN	_	_	1	conj	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 74
+# text = 十個一緡。
+1	十	_	NUM	_	_	4	nummod	_	SpaceAfter=No
+2	個	_	NOUN	_	_	4	clf	_	SpaceAfter=No
+3	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No
+4	緡	_	NOUN	_	_	0	root	_	SpaceAfter=No
+5	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 75
+# text = 唔該晒！
+1	唔該	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	晒	_	PART	_	_	1	advmod	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 76
+# text = 換咗呀？
+1	換	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	咗	_	AUX	_	_	1	aux	_	SpaceAfter=No
+3	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	？	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 77
+# text = 好好彩喎！
+1	好	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+2	好彩	_	ADJ	_	_	0	root	_	SpaceAfter=No
+3	喎	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 78
+# text = 呢張唔係你中意嘅孫悟空咩？
+1	呢	_	PART	_	_	2	det	_	SpaceAfter=No
+2	張	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
+3	唔	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+4	係	_	AUX	_	_	8	cop	_	SpaceAfter=No
+5	你	_	PRON	_	_	6	nsubj	_	SpaceAfter=No
+6	中意	_	VERB	_	_	8	acl	_	SpaceAfter=No
+7	嘅	_	PART	_	_	6	mark:rel	_	SpaceAfter=No
+8	孫悟空	_	PROPN	_	_	0	root	_	SpaceAfter=No
+9	咩	_	PART	_	_	8	discourse:sp	_	SpaceAfter=No
+10	？	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 79
+# text = 都唔閃嘅！
+1	都	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	唔	_	ADV	_	_	3	advmod	_	SpaceAfter=No
+3	閃	_	ADJ	_	_	0	root	_	SpaceAfter=No
+4	嘅	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 80
+# text = 走喇，返屋企喇！
+1	走	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	返	_	VERB	_	_	1	conj	_	SpaceAfter=No
+5	屋企	_	NOUN	_	_	4	obj	_	SpaceAfter=No
+6	喇	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 81
+# text = 擰晒㗎嘑！
+1	擰	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	晒	_	PART	_	_	1	advmod	_	SpaceAfter=No
+3	㗎	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	嘑	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 82
+# text = 爺爺，你再畀多我兩緡吖！
+1	爺爺	_	NOUN	_	_	5	vocative	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	你	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
+4	再	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+5	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	多	_	ADJ	_	_	5	compound:vv	_	SpaceAfter=No
+7	我	_	PRON	_	_	5	iobj	_	SpaceAfter=No
+8	兩	_	NUM	_	_	9	nummod	_	SpaceAfter=No
+9	緡	_	NOUN	_	_	5	obj	_	SpaceAfter=No
+10	吖	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+11	！	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 83
+# text = 就唻有閃卡㗎嘑！
+1	就唻	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+2	有	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	閃卡	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+4	㗎	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+5	嘑	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+6	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 84
+# text = 爺爺，你畀我喇！
+1	爺爺	_	NOUN	_	_	4	vocative	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	你	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+4	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	我	_	PRON	_	_	4	obj	_	SpaceAfter=No
+6	喇	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 85
+# text = 你畀我喇！你畀我喇！你畀我喇！
+1	你	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
+2	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	我	_	PRON	_	_	2	obj	_	SpaceAfter=No
+4	喇	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	你	_	PRON	_	_	7	nsubj	_	SpaceAfter=No
+7	畀	_	VERB	_	_	2	conj	_	SpaceAfter=No
+8	我	_	PRON	_	_	7	obj	_	SpaceAfter=No
+9	喇	_	PART	_	_	7	discourse:sp	_	SpaceAfter=No
+10	！	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	你	_	PRON	_	_	12	nsubj	_	SpaceAfter=No
+12	畀	_	VERB	_	_	2	conj	_	SpaceAfter=No
+13	我	_	PRON	_	_	12	obj	_	SpaceAfter=No
+14	喇	_	PART	_	_	12	discourse:sp	_	SpaceAfter=No
+15	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 86
+# text = 哎吔！
+1	哎吔	_	INTJ	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 87
+# text = 你畀我兩張喇！
+1	你	_	PRON	_	_	2	nsubj	_	SpaceAfter=No
+2	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	我	_	PRON	_	_	2	iobj	_	SpaceAfter=No
+4	兩	_	NUM	_	_	5	nummod	_	SpaceAfter=No
+5	張	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+6	喇	_	PART	_	_	2	discourse:sp	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 88
+# text = 嘩！
+1	嘩	_	INTJ	_	_	0	root	_	SpaceAfter=No
+2	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 89
+# text = 係閃卡！好嘢！好嘢！
+1	係	_	AUX	_	_	2	cop	_	SpaceAfter=No
+2	閃卡	_	NOUN	_	_	0	root	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	好嘢	_	INTJ	_	_	2	discourse	_	SpaceAfter=No
+5	！	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	好嘢	_	INTJ	_	_	2	discourse	_	SpaceAfter=No
+7	！	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 90
+# text = 快啲交換喇，交換喇！
+1	快	_	ADJ	_	_	3	advmod	_	SpaceAfter=No
+2	啲	_	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	交換	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	喇	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+5	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	交換	_	VERB	_	_	3	conj	_	SpaceAfter=No
+7	喇	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+8	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 91
+# text = 攞唻喇！
+1	攞	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	唻	_	VERB	_	_	1	compound:dir	_	SpaceAfter=No
+3	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+4	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 92
+# text = 最衰都係爺爺喇。
+1	最	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+2	衰	_	ADJ	_	_	4	csubj	_	SpaceAfter=No
+3	都	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	係	_	VERB	_	_	5	cop	_	SpaceAfter=No
+5	爺爺	_	NOUN	_	_	0	root	_	SpaceAfter=No
+6	喇	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+7	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 93
+# text = 張閃卡本來係我㗎嘛。
+1	張	_	NOUN	_	_	2	det	_	SpaceAfter=No
+2	閃卡	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No
+3	本來	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	係	_	VERB	_	_	5	cop	_	SpaceAfter=No
+5	我	_	PRON	_	_	0	root	_	SpaceAfter=No
+6	㗎嘛	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+7	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 94
+# text = 走喇！
+1	走	_	VERB	_	_	0	root	_	SpaceAfter=No
+2	喇	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
+3	！	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 95
+# text = 爺爺，我唔睬你呀！
+1	爺爺	_	NOUN	_	_	5	vocative	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	我	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
+4	唔	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+5	睬	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	你	_	PRON	_	_	5	obj	_	SpaceAfter=No
+7	呀	_	PART	_	_	5	discourse:sp	_	SpaceAfter=No
+8	！	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 96
+# text = 真係一張閃都冇嘅喎。
+1	真係	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	一	_	NUM	_	_	4	nummod	_	SpaceAfter=No
+3	張	_	NOUN	_	_	4	clf	_	SpaceAfter=No
+4	閃	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+5	都	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+6	冇	_	VERB	_	_	0	root	_	SpaceAfter=No
+7	嘅	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+8	喎	_	PART	_	_	6	discourse:sp	_	SpaceAfter=No
+9	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 97
+# text = 咁多年㗎嘑。
+1	咁	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+2	多	_	DET	_	_	3	det	_	SpaceAfter=No
+3	年	_	NOUN	_	_	0	root	_	SpaceAfter=No
+4	㗎	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+5	嘑	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+6	。	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 98
+# text = 啲卡都冇咗喇。
+1	啲	_	NOUN	_	_	2	det	_	SpaceAfter=No
+2	卡	_	NOUN	_	_	4	nsubj	_	SpaceAfter=No
+3	都	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+4	冇	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	咗	_	AUX	_	_	4	aux	_	SpaceAfter=No
+6	喇	_	PART	_	_	4	discourse:sp	_	SpaceAfter=No
+7	。	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 99
+# text = 欸，影張相畀阿哥睇先！
+1	欸	_	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	影	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	張	_	NOUN	_	_	5	det	_	SpaceAfter=No
+5	相	_	NOUN	_	_	3	obj	_	SpaceAfter=No
+6	畀	_	ADP	_	_	7	case	_	SpaceAfter=No
+7	阿哥	_	NOUN	_	_	8	obl	_	SpaceAfter=No
+8	睇	_	VERB	_	_	3	conj	_	SpaceAfter=No
+9	先	_	ADV	_	_	3	discourse:sp	_	SpaceAfter=No
+10	！	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 100
+# text = 你不如一陣先問下⋯⋯問下豪仔夜晚返唔返唻食飯。
+1	你	_	PRON	_	_	5	nsubj	_	SpaceAfter=No
+2	不如	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	一陣	_	NOUN	_	_	5	obl:tmod	_	SpaceAfter=No
+4	先	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+5	問	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	下	_	PART	_	_	5	advmod	_	SpaceAfter=No
+7	⋯⋯	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	問	_	VERB	_	_	5	ccomp	_	SpaceAfter=No
+9	下	_	PART	_	_	8	advmod	_	SpaceAfter=No
+10	豪仔	_	PROPN	_	_	8	obj	_	SpaceAfter=No
+11	夜晚	_	NOUN	_	_	12	obl:tmod	_	SpaceAfter=No
+12	返	_	VERB	_	_	8	xcomp	_	SpaceAfter=No
+13	唔	_	ADV	_	_	14	advmod	_	SpaceAfter=No
+14	返唻	_	VERB	_	_	12	conj	_	SpaceAfter=No
+15	食飯	_	NOUN	_	_	14	obj	_	SpaceAfter=No
+16	。	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
