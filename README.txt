@@ -42,8 +42,6 @@ When using this treebank, please cite at least one paper from the following refe
 Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative Syntax on the Cantonese-Mandarin Parallel Dependency Treebank" Proceedings of the Fourth International Conference on Dependency Linguistics, pp. 266−275, Pisa, Italy, September 2017.
 
 === Machine-readable metadata =================================================
-Documentation status: partial
-Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
