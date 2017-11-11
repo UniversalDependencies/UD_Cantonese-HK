@@ -5,18 +5,63 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>100</sentences><tokens>690</tokens><words>690</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <forms unique="197" /><!-- ！, ，, 喇, 。, 你, 呀, 我, ？, 唔, 好, 都, 㗎, 爺爺, 畀, 係 -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">26</tag><!-- _ -->
+    <tag name="ADP">10</tag><!-- _ -->
+    <tag name="ADV">64</tag><!-- _ -->
+    <tag name="AUX">19</tag><!-- _ -->
+    <tag name="DET">4</tag><!-- _ -->
+    <tag name="INTJ">8</tag><!-- _ -->
+    <tag name="NOUN">85</tag><!-- _ -->
+    <tag name="NUM">18</tag><!-- _ -->
+    <tag name="PART">117</tag><!-- _ -->
+    <tag name="PRON">54</tag><!-- _ -->
+    <tag name="PROPN">10</tag><!-- _ -->
+    <tag name="PUNCT">155</tag><!-- _ -->
+    <tag name="VERB">120</tag><!-- _ -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="32">
+    <dep name="acl">3</dep>
+    <dep name="advcl">6</dep>
+    <dep name="advcl:coverb">5</dep>
+    <dep name="advmod">72</dep>
+    <dep name="amod">4</dep>
+    <dep name="aux">14</dep>
+    <dep name="case">3</dep>
+    <dep name="case:loc">1</dep>
+    <dep name="ccomp">3</dep>
+    <dep name="clf">4</dep>
+    <dep name="compound">2</dep>
+    <dep name="compound:dir">5</dep>
+    <dep name="compound:vv">3</dep>
+    <dep name="conj">39</dep>
+    <dep name="cop">7</dep>
+    <dep name="csubj">1</dep>
+    <dep name="det">14</dep>
+    <dep name="discourse">9</dep>
+    <dep name="discourse:sp">105</dep>
+    <dep name="dislocated">8</dep>
+    <dep name="iobj">3</dep>
+    <dep name="mark:rel">2</dep>
+    <dep name="nmod">2</dep>
+    <dep name="nsubj">37</dep>
+    <dep name="nummod">13</dep>
+    <dep name="obj">45</dep>
+    <dep name="obl">3</dep>
+    <dep name="obl:tmod">5</dep>
+    <dep name="punct">155</dep>
+    <dep name="root">100</dep>
+    <dep name="vocative">14</dep>
+    <dep name="xcomp">3</dep>
   </deps>
 </treebank>
