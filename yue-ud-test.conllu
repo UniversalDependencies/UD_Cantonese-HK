@@ -6203,7 +6203,7 @@
 10	開心	開心	ADJ	_	_	0	root	_	SpaceAfter=No
 11	呀	呀	PART	_	_	10	discourse:sp	_	SpaceAfter=No
 12	，	，	PUNCT	_	_	16	punct	_	SpaceAfter=No
-13	覺得	覺得	VERB	_	_	16	conj	_	SpaceAfter=No
+13	覺得	覺得	AUX	_	_	16	aux	_	SpaceAfter=No
 14	好似	好似	ADV	_	_	16	advmod	_	SpaceAfter=No
 15	好	好	ADV	_	_	16	advmod	_	SpaceAfter=No
 16	委屈	委屈	VERB	_	_	10	conj	_	SpaceAfter=No
