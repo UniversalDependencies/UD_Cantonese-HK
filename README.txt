@@ -1,6 +1,6 @@
 ﻿# Summary
 
-The Cantonese-HK UD treebank was manually annotated by Tak-sum Wong and Herman H. M. Leung at City University of Hong Kong, directly using the subtitles from three films shooted by students from the School of Creative Media. The data is in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Chinese-HK.
+The Cantonese-HK UD treebank was manually annotated by Tak-sum Wong and Herman H. M. Leung at City University of Hong Kong, by finely transcribing three films shooted by students from the School of Creative Media. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Chinese-HK.
 
 # Introduction
 
@@ -39,7 +39,7 @@ Category=value feature pairs: 1
 
 FORM and LEMMA
 
-Since Cantonese is not an official language, there is no standard written form.  In this treebank, the FORM field adopts the popular written form while we have tried our best to find different characters attested in dictioanries or other studies for the LEMMA field, to discern the homophones, in order to faciliate computer processing.
+Since Cantonese is not an official language, there is no standard written form.  In this treebank, the FORM field adopts the popular written form while we have tried our best to find different characters attested in dictioanries or other studies for the LEMMA field to discern the homophones, in order to faciliate computer processing.
 
 POS TAGGING
 
