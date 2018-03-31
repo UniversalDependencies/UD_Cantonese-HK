@@ -1,4 +1,4 @@
-﻿# Summary
+# Summary
 
 The Cantonese-HK UD treebank was manually annotated by Tak-sum Wong and Herman H. M. Leung at City University of Hong Kong, by finely transcribing three films shooted by students from the School of Creative Media. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Chinese-HK.
 
