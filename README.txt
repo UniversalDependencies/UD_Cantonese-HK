@@ -77,7 +77,7 @@ XPOS: not available
 Features: manual native
 Relations: manual native
 Contributors: Gerdes, Kim; Lee, John; Leung, Herman; Wong, Tak-sum
-contributing: elsewhere
+Contributing: elsewhere
 Contact: tswong-c@my.cityu.edu.hk; jsylee@cityu.edu.hk
 ===============================================================================
 </pre>
