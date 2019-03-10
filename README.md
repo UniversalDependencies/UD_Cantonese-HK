@@ -1,6 +1,6 @@
 # Summary
 
-The Cantonese-HK UD treebank was manually annotated by Tak-sum Wong and Herman H. M. Leung at City University of Hong Kong, by finely transcribing three films shooted by students from the School of Creative Media as well as part of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Tradiaitonal Chinese.  These trees form a parallel treebank with those in Chinese-HK.
+The Cantonese-HK UD treebank was manually annotated by Tak-sum Wong and Herman H. M. Leung at City University of Hong Kong, by finely transcribing three films shooted by students from the School of Creative Media as well as part of the section of the Election of President of the council meeting of the Legislative Council of the HKSAR of the P. R. China on 12th October, 2016 commencing at 2:13 p.m. The data are in Traditional Chinese.  These trees form a parallel treebank with those in Chinese-HK.
 
 # Introduction
 
@@ -28,6 +28,7 @@ ORIGIN
 * Title: Election of President: The council meeting of the Legislative Council of HKSAR on 12th October, 2016(14:13:49 ~ 14:47:54)
 * Source: https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161012-translate-c.pdf#nameddest=eop	https://webcast.legco.gov.hk/public/zh-hk/SearchResult?MeetingID=M16100003
 * Duration: 34 minutes 5 seconds
+* Fluency: This is an discission.  Most sentences are not prepared and thus contain a lot of disfluencies.  A lot of reparandums are tagged.
 
 DATA
 
@@ -65,7 +66,9 @@ Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative 
 
 # Changelog
 
-* 2018-04-15 v2.2
+* 2019-03-11 v1.3
+  * Data from the Legislative Council added
+* 2018-04-15 v1.2
   * Repository renamed from UD_Cantonese to UD_Cantonese-HK.
 
 <pre>
