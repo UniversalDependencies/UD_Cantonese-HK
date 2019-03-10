@@ -36,12 +36,12 @@ Since the Chinese-HK counterpart contains less than a myraid tokens, to make it 
 
 BASIC STATISTICS
 
-Tree count:  1004
-Word count:  13918
-Token count: 13918
-Dep. relations: 48 of which 17 language specific
-POS tags: 15
-Category=value feature pairs: 1
+* Tree count:  1004
+* Word count:  13918
+* Token count: 13918
+* Dep. relations: 48 of which 17 language specific
+* POS tags: 15
+* Category=value feature pairs: 1
 
 FORM and LEMMA
 
