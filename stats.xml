@@ -5,80 +5,85 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>650</sentences><tokens>6264</tokens><words>6264</words><fused>0</fused></total>
+    <total><sentences>1004</sentences><tokens>13918</tokens><words>13918</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1004</sentences><tokens>13918</tokens><words>13918</words><fused>0</fused></test>
   </size>
   <lemmas unique="954" /><!-- ，, 。, ！, 呀, 我, 你, ？, 喇, 呢, 係, 唔, 啲, 個, 都, 㗎 -->
-  <forms unique="952" /><!-- ，, 。, ！, 呀, 我, 你, ？, 啦, 呢, 係, 唔, 啲, 個, 都, 㗎 -->
+  <forms unique="1526" /><!-- ，, 。, 我, 係, 嘅, 呢, 你, 呀, ！, 唔, 個, 就, ？, 都, 噉 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">164</tag><!-- 好, 快, 多, 高, 得閒, 啱, 大, 新, 第二, 低 -->
-    <tag name="ADP">80</tag><!-- 畀, 到, 喺, 之後, 同, 嗰陣時, 由, 响, 度, 好似 -->
-    <tag name="ADV">721</tag><!-- 唔, 都, 就, 噉, 好, 又, 啲, 下, 咁, 喺度 -->
-    <tag name="AUX">217</tag><!-- 咗, 係, 要, 唔好, 過, 冇, 可以, 會, 中意, 緊 -->
-    <tag name="CCONJ">28</tag><!-- 或者, 但係, 不過, 而, 同埋, 而家, 但, 或者話, 抑係, 至 -->
-    <tag name="DET">89</tag><!-- 嗰, 呢, 咩, 每, 幾多, 成, 乜, 呢啲, 嗰啲, 好多 -->
-    <tag name="INTJ">124</tag><!-- 誒, 呀, 喂, 哦, 吓, 哎吔, 嗱, 唏, 可, 哎 -->
-    <tag name="NOUN">807</tag><!-- 個, 啲, 人, 歌, 爺爺, 緡, 阿哥, 嘢, 年, 而家 -->
-    <tag name="NUM">107</tag><!-- 一, 兩, 三, 三十, 一百, 十, 四, 幾, 二十, 六十六 -->
-    <tag name="PART">794</tag><!-- 呀, 喇, 呢, 㗎, 嘅, 嘑, 喎, 吖, 囖, 嘞 -->
-    <tag name="PRON">523</tag><!-- 我, 你, 佢, 我哋, 咩, 佢哋, 自己, 人哋, 呢度, 你哋 -->
-    <tag name="PROPN">115</tag><!-- 廟街, 香港, Eason, 豪仔, 陳奕迅, Yes!, 九零三, 龍珠, 千嬅, 楊千嬅 -->
-    <tag name="PUNCT">1352</tag><!-- ，, 。, ！, ？, -, ……, 《, 》, ⋯⋯, 、 -->
-    <tag name="SCONJ">10</tag><!-- 唻, 嘅話, 如果, 即使, 去, 若果, 除非 -->
-    <tag name="VERB">1133</tag><!-- 係, 有, 做, 冇, 去, 畀, 睇, 唱, 聽, 唻 -->
+    <tag name="ADJ">373</tag><!-- _, 好, 快, 多, 高, 得閒, 啱, 大, 新, 第二 -->
+    <tag name="ADP">219</tag><!-- _, 畀, 到, 喺, 之後, 同, 嗰陣時, 由, 响, 嗰時 -->
+    <tag name="ADV">1578</tag><!-- _, 唔, 都, 就, 噉, 好, 又, 啲, 下, 咁 -->
+    <tag name="AUX">563</tag><!-- _, 咗, 係, 要, 唔好, 過, 冇, 可以, 會, 中意 -->
+    <tag name="CCONJ">123</tag><!-- _, 或者, 但係, 不過, 而, 而家, 同埋, 但, 加, 或者話 -->
+    <tag name="DET">330</tag><!-- _, 呢, 嗰, 咩, 每, 幾多, 成, 乜, 呢啲, 嗰啲 -->
+    <tag name="INTJ">216</tag><!-- _, 誒, 呀, 喂, 哦, 吓, 哎吔, 嗱, 唏, 可 -->
+    <tag name="NOUN">2088</tag><!-- _, 個, 啲, 人, 歌, 爺爺, 緡, 阿哥, 嘢, 年 -->
+    <tag name="NUM">232</tag><!-- _, 一, 兩, 三, 三十, 一百, 十, 四, 幾, 二十 -->
+    <tag name="PART">1535</tag><!-- _, 呀, 喇, 㗎, 呢, 嘅, 嘑, 喎, 吖, 囖 -->
+    <tag name="PRON">1183</tag><!-- _, 我, 你, 佢, 我哋, 咩, 佢哋, 自己, 人哋, 呢度 -->
+    <tag name="PROPN">167</tag><!-- _, 廟街, 香港, Eason, 豪仔, 陳奕迅, Yes!, 九零三, 龍珠, 千嬅 -->
+    <tag name="PUNCT">2729</tag><!-- _, ，, 。, ！, ？, -, ……, 《, 》, ⋯⋯ -->
+    <tag name="SCONJ">113</tag><!-- _, 去, 唻, 嘅話, 如果, 即使, 若果, 話, 除非 -->
+    <tag name="VERB">2469</tag><!-- _, 係, 有, 做, 冇, 去, 畀, 睇, 唱, 聽 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="NounType" value="Clf" upos="NOUN,PART">247</feat><!-- 個, 啲, 蚊, 年, 張, 條, 隻, 分, 日, 部 -->
+    <feat name="NounType" value="Clf" upos="DET,NOUN,PART">476</feat><!-- 個, 啲, 蚊, 條, 位, 年, 次, 點, 份, 封 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
-    <dep name="acl">41</dep>
-    <dep name="advcl">82</dep>
-    <dep name="advcl:coverb">33</dep>
-    <dep name="advmod">670</dep>
+  <deps unique="48">
+    <dep name="acl">175</dep>
+    <dep name="advcl">232</dep>
+    <dep name="advcl:coverb">70</dep>
+    <dep name="advmod">1475</dep>
     <dep name="advmod:df">14</dep>
-    <dep name="amod">32</dep>
-    <dep name="appos">9</dep>
-    <dep name="aux">173</dep>
-    <dep name="case">82</dep>
-    <dep name="case:loc">11</dep>
-    <dep name="cc">17</dep>
-    <dep name="ccomp">65</dep>
-    <dep name="clf">69</dep>
-    <dep name="compound">20</dep>
-    <dep name="compound:dir">29</dep>
-    <dep name="compound:ext">5</dep>
-    <dep name="compound:quant">11</dep>
-    <dep name="compound:vo">8</dep>
-    <dep name="compound:vv">61</dep>
-    <dep name="conj">330</dep>
-    <dep name="cop">45</dep>
-    <dep name="csubj">7</dep>
-    <dep name="det">188</dep>
-    <dep name="discourse">163</dep>
-    <dep name="discourse:sp">702</dep>
-    <dep name="dislocated">10</dep>
-    <dep name="flat">3</dep>
-    <dep name="iobj">9</dep>
-    <dep name="mark">23</dep>
-    <dep name="mark:rel">15</dep>
-    <dep name="nmod">54</dep>
-    <dep name="nsubj">389</dep>
+    <dep name="amod">136</dep>
+    <dep name="appos">47</dep>
+    <dep name="aux">422</dep>
+    <dep name="case">357</dep>
+    <dep name="case:loc">69</dep>
+    <dep name="cc">79</dep>
+    <dep name="ccomp">439</dep>
+    <dep name="clf">212</dep>
+    <dep name="compound">177</dep>
+    <dep name="compound:dir">60</dep>
+    <dep name="compound:ext">17</dep>
+    <dep name="compound:quant">14</dep>
+    <dep name="compound:vo">15</dep>
+    <dep name="compound:vv">114</dep>
+    <dep name="conj">548</dep>
+    <dep name="cop">94</dep>
+    <dep name="csubj">17</dep>
+    <dep name="det">445</dep>
+    <dep name="discourse">338</dep>
+    <dep name="discourse:sp">1153</dep>
+    <dep name="dislocated">15</dep>
+    <dep name="flat">27</dep>
+    <dep name="iobj">14</dep>
+    <dep name="mark">154</dep>
+    <dep name="mark:adv">10</dep>
+    <dep name="mark:rel">107</dep>
+    <dep name="nmod">237</dep>
+    <dep name="nsubj">937</dep>
+    <dep name="nsubj:pass">1</dep>
     <dep name="nsubj:periph">13</dep>
-    <dep name="nummod">88</dep>
-    <dep name="obj">434</dep>
-    <dep name="obj:periph">15</dep>
-    <dep name="obl">61</dep>
-    <dep name="obl:agent">2</dep>
-    <dep name="obl:patient">1</dep>
-    <dep name="obl:tmod">66</dep>
-    <dep name="parataxis">80</dep>
-    <dep name="punct">1353</dep>
-    <dep name="reparandum">60</dep>
-    <dep name="root">650</dep>
-    <dep name="vocative">24</dep>
-    <dep name="xcomp">47</dep>
+    <dep name="nummod">206</dep>
+    <dep name="obj">907</dep>
+    <dep name="obj:periph">28</dep>
+    <dep name="obl">155</dep>
+    <dep name="obl:agent">3</dep>
+    <dep name="obl:patient">2</dep>
+    <dep name="obl:tmod">138</dep>
+    <dep name="parataxis">143</dep>
+    <dep name="punct">2729</dep>
+    <dep name="reparandum">164</dep>
+    <dep name="root">1004</dep>
+    <dep name="vocative">64</dep>
+    <dep name="xcomp">141</dep>
   </deps>
 </treebank>
