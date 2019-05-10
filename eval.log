@@ -3,36 +3,36 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Cantonese-HK:
-commit 5273ed76d9e83df2785b0fdf3b98f9e7e9a4d3dc
-Merge: fe81f52 aef4a85
+commit b83e3131a3607ba6814cfa130f1488974f8d8304
+Merge: 0dfabd7 cfd5ddc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 6264 of 6264 words (nodes).
-Size: min(0, log((N/1000)**2)) = 3.669637917377.
+Size: counted 13918 of 13918 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.26636593284532.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 1.
+Split: Found at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 247 out of 6264 total words have one or more features.
+Features: 476 out of 13918 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2021 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 6264 words.
+Udapi: found 4438 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 13918 words.
 Genres: found 1 out of 17 known.
 validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.265617249683296) = 0.0681069870982809
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
+(weight=0.256410256410256) * (score{size}=0.381192277386332) = 0.097741609586239
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.308543985182338) * (availability=1) * (validity=1) = 0.308543985182338
+(TOTAL score=0.278947838439527) * (availability=1) * (validity=1) = 0.278947838439527
 STARS = 1.5
-UD_Cantonese-HK	0.308543985182338	1.5
+UD_Cantonese-HK	0.278947838439527	1.5
