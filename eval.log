@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Cantonese-HK:
-commit b83e3131a3607ba6814cfa130f1488974f8d8304
-Merge: 0dfabd7 cfd5ddc
+commit 20a6d1ea28d1b46670dc8e0c8635ea8826bc0628
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 20:57:04 2019 +0200
 Size: counted 13918 of 13918 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.26636593284532.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 4438 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 13918 words.
 Genres: found 1 out of 17 known.
 validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 15 Sent 2 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 19 Sent 2 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 105 Sent 9 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 142 Sent 11 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 250 Sent 23 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 489 Sent 51 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 903 Sent 93 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 951 Sent 98 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 964 Sent 99 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+...suppressing further errors regarding Syntax
+Syntax errors: 195
+*** FAILED *** with 195 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.278947838439527) * (availability=1) * (validity=1) = 0.278947838439527
-STARS = 1.5
-UD_Cantonese-HK	0.278947838439527	1.5
+(TOTAL score=0.278947838439527) * (availability=1) * (validity=0.01) = 0.00278947838439527
+STARS = 0
+UD_Cantonese-HK	0.00278947838439527	0
