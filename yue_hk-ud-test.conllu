@@ -7160,7 +7160,7 @@
 # sent_id = 548
 # text = 屋企係咪呢個呢？
 1	屋企	屋企	NOUN	_	_	4	obl	_	SpaceAfter=No|Translit=uk1kei2|Gloss=home
-2	係咪	係咪	AUX	_	_	4	cop	_	SpaceAfter=No|Translit=hai6m4hai6|Gloss=COP-NEG-COP
+2	係咪	係	AUX	_	_	4	cop	_	SpaceAfter=No|Translit=hai6m4hai6|Gloss=COP-NEG-COP
 3	呢	呢	DET	_	_	4	det	_	SpaceAfter=No|Translit=nei1|Gloss=this
 4	個	個	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Translit=go3|Gloss=CLF.GEN
 5	呢	呢	PART	_	_	4	discourse:sp	_	SpaceAfter=No|Translit=ne1|Gloss=SFP
