@@ -33,7 +33,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="NounType" value="Clf" upos="DET,NOUN,PART">476</feat><!-- 個, 啲, 蚊, 條, 位, 年, 次, 點, 份, 封 -->
+    <feat name="NounType" value="Clf" upos="NOUN">473</feat><!-- 個, 啲, 蚊, 條, 位, 年, 次, 點, 份, 封 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="48">
