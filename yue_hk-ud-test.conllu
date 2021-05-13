@@ -3104,7 +3104,7 @@
 7	冇	冇	VERB	_	_	6	conj	_	SpaceAfter=No
 8	利是	利是	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	收	收	VERB	_	_	8	acl	_	SpaceAfter=No
-10	個	個	PART	_	NounType=Clf	3	discourse:sp	_	SpaceAfter=No
+10	個	個	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 11	喎	喎	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 12	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -5958,7 +5958,7 @@
 7	嗰	嗰	DET	_	_	11	det	_	SpaceAfter=No
 8	啲	啲	NOUN	_	NounType=Clf	7	clf	_	SpaceAfter=No
 9	唱歌	唱歌	VERB	_	_	11	acl	_	SpaceAfter=No
-10	啲	啲	PART	_	NounType=Clf	9	mark:rel	_	SpaceAfter=No
+10	啲	啲	PART	_	_	9	mark:rel	_	SpaceAfter=No
 11	朋友	朋友	NOUN	_	_	5	obj	_	SpaceAfter=No
 12	啦	喇	PART	_	_	5	discourse:sp	_	SpaceAfter=No
 13	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -7160,7 +7160,7 @@
 # sent_id = 548
 # text = 屋企係咪呢個呢？
 1	屋企	屋企	NOUN	_	_	4	obl	_	SpaceAfter=No|Translit=uk1kei2|Gloss=home
-2	係咪	係咪	AUX	_	_	4	cop	_	SpaceAfter=No|Translit=hai6m4hai6|Gloss=COP-NEG-COP
+2	係咪	係	AUX	_	_	4	cop	_	SpaceAfter=No|Translit=hai6m4hai6|Gloss=COP-NEG-COP
 3	呢	呢	DET	_	_	4	det	_	SpaceAfter=No|Translit=nei1|Gloss=this
 4	個	個	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Translit=go3|Gloss=CLF.GEN
 5	呢	呢	PART	_	_	4	discourse:sp	_	SpaceAfter=No|Translit=ne1|Gloss=SFP
@@ -9142,7 +9142,7 @@
 49	喺	_	ADP	_	_	50	case	_	SpaceAfter=No
 50	出便	_	NOUN	_	_	58	obl	_	SpaceAfter=No
 51	同	_	VERB	_	_	54	advcl:coverb	_	SpaceAfter=No
-52	依個	_	DET	_	NounType=Clf	54	det	_	SpaceAfter=No
+52	依個	_	DET	_	_	54	det	_	SpaceAfter=No
 53	新聞	_	NOUN	_	_	54	compound	_	SpaceAfter=No
 54	傳媒	_	NOUN	_	_	58	obl	_	SpaceAfter=No
 55	嗰度	_	PRON	_	_	54	case:loc	_	SpaceAfter=No
