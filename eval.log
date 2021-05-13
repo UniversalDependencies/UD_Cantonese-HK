@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Cantonese-HK:
-commit 0d2c02785e968781b41a5d7a3bb3a2bfbeeb80ed
-Merge: da78675 f0de6ee
+commit 0644971812c233591eab287c9cb3e79f6752b91b
+Merge: 70f6dd3 11a81d8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 13918 of 13918 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.26636593284532.
@@ -15,11 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 476 out of 13918 total words have one or more features.
+Features: 473 out of 13918 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 4421 bugs.
+Udapi:
+               TOTAL       4420
+Udapi: found 4420 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 13918 words.
 Genres: found 1 out of 17 known.
 validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
@@ -43,9 +45,9 @@ validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
 [Line 951 Sent 98 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 964 Sent 99 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 ...suppressing further errors regarding Syntax
-Morpho errors: 185
-Syntax errors: 195
-*** FAILED *** with 380 errors
+Morpho errors: 184
+Syntax errors: 194
+*** FAILED *** with 378 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
