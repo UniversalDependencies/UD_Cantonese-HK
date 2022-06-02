@@ -16,16 +16,16 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
     <tag name="ADJ">373</tag><!-- _, 好, 快, 多, 高, 得閒, 啱, 大, 新, 第二 -->
-    <tag name="ADP">219</tag><!-- _, 畀, 到, 喺, 之後, 同, 嗰陣時, 由, 响, 嗰時 -->
+    <tag name="ADP">227</tag><!-- _, 畀, 到, 喺, 之後, 同, 嗰陣時, 由, 响, 嗰時 -->
     <tag name="ADV">1578</tag><!-- _, 唔, 都, 就, 噉, 好, 又, 啲, 下, 咁 -->
     <tag name="AUX">563</tag><!-- _, 咗, 係, 要, 唔好, 過, 冇, 可以, 會, 中意 -->
     <tag name="CCONJ">123</tag><!-- _, 或者, 但係, 不過, 而, 而家, 同埋, 但, 加, 或者話 -->
     <tag name="DET">330</tag><!-- _, 呢, 嗰, 咩, 每, 幾多, 成, 乜, 呢啲, 嗰啲 -->
     <tag name="INTJ">216</tag><!-- _, 誒, 呀, 喂, 哦, 吓, 哎吔, 嗱, 唏, 可 -->
-    <tag name="NOUN">2088</tag><!-- _, 個, 啲, 人, 歌, 爺爺, 緡, 阿哥, 嘢, 年 -->
+    <tag name="NOUN">2086</tag><!-- _, 個, 啲, 人, 歌, 爺爺, 緡, 阿哥, 嘢, 年 -->
     <tag name="NUM">232</tag><!-- _, 一, 兩, 三, 三十, 一百, 十, 四, 幾, 二十 -->
     <tag name="PART">1535</tag><!-- _, 呀, 喇, 㗎, 呢, 嘅, 嘑, 喎, 吖, 囖 -->
-    <tag name="PRON">1183</tag><!-- _, 我, 你, 佢, 我哋, 咩, 佢哋, 自己, 人哋, 呢度 -->
+    <tag name="PRON">1177</tag><!-- _, 我, 你, 佢, 我哋, 咩, 佢哋, 自己, 人哋, 呢度 -->
     <tag name="PROPN">167</tag><!-- _, 廟街, 香港, Eason, 豪仔, 陳奕迅, Yes!, 九零三, 龍珠, 千嬅 -->
     <tag name="PUNCT">2729</tag><!-- _, ，, 。, ！, ？, -, ……, 《, 》, ⋯⋯ -->
     <tag name="SCONJ">113</tag><!-- _, 去, 唻, 嘅話, 如果, 即使, 若果, 話, 除非 -->
@@ -40,12 +40,12 @@
     <dep name="acl">175</dep>
     <dep name="advcl">232</dep>
     <dep name="advcl:coverb">70</dep>
-    <dep name="advmod">1475</dep>
-    <dep name="advmod:df">14</dep>
+    <dep name="advmod">1459</dep>
+    <dep name="advmod:df">5</dep>
     <dep name="amod">136</dep>
     <dep name="appos">47</dep>
     <dep name="aux">422</dep>
-    <dep name="case">357</dep>
+    <dep name="case">358</dep>
     <dep name="case:loc">69</dep>
     <dep name="cc">79</dep>
     <dep name="ccomp">439</dep>
@@ -65,7 +65,7 @@
     <dep name="dislocated">15</dep>
     <dep name="flat">27</dep>
     <dep name="iobj">14</dep>
-    <dep name="mark">154</dep>
+    <dep name="mark">152</dep>
     <dep name="mark:adv">10</dep>
     <dep name="mark:rel">107</dep>
     <dep name="nmod">237</dep>
@@ -75,7 +75,7 @@
     <dep name="nummod">206</dep>
     <dep name="obj">907</dep>
     <dep name="obj:periph">28</dep>
-    <dep name="obl">155</dep>
+    <dep name="obl">181</dep>
     <dep name="obl:agent">3</dep>
     <dep name="obl:patient">2</dep>
     <dep name="obl:tmod">138</dep>
