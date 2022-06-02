@@ -8398,7 +8398,7 @@
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	由於	_	SCONJ	_	_	15	mark	_	SpaceAfter=No
 4	呢	_	PART	_	_	15	discourse:sp	_	SpaceAfter=No
-5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	我哋	_	PRON	_	_	12	nmod	_	SpaceAfter=No
 7	今日	_	NOUN	_	_	12	nmod	_	SpaceAfter=No
 8	依	_	DET	_	_	10	det	_	SpaceAfter=No
