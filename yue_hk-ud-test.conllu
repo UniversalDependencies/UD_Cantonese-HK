@@ -1089,7 +1089,7 @@
 15	走	走	VERB	_	_	0	root	_	SpaceAfter=No
 16	出	出	VERB	_	_	15	compound:dir	_	SpaceAfter=No
 17	廳	廳	NOUN	_	_	16	obj	_	SpaceAfter=No
-18	嗰度	嗰度	PRON	_	_	17	case:loc	_	SpaceAfter=No
+18	嗰度	嗰度	ADP	_	_	17	case:loc	_	SpaceAfter=No
 19	呢	呢	PART	_	_	15	discourse:sp	_	SpaceAfter=No
 20	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No
 21	睇	睇	VERB	_	_	15	conj	_	SpaceAfter=No
@@ -6444,7 +6444,7 @@
 # sent_id = 515
 # text = 出面嗰度識好多嗰啲朋友，聽下歌，開下心。
 1	出面	出面	NOUN	_	_	3	obl	_	SpaceAfter=No
-2	嗰度	嗰度	PRON	_	_	1	case:loc	_	SpaceAfter=No
+2	嗰度	嗰度	ADP	_	_	1	case:loc	_	SpaceAfter=No
 3	識	識	VERB	_	_	0	root	_	SpaceAfter=No
 4	好多	好多	DET	_	_	7	det	_	SpaceAfter=No
 5	嗰	嗰	DET	_	_	7	det	_	SpaceAfter=No
@@ -8832,7 +8832,7 @@
 16	原來	_	NOUN	_	_	18	nmod	_	SpaceAfter=No
 17	嘅	_	PART	_	_	16	case	_	SpaceAfter=No
 18	位置	_	NOUN	_	_	12	obj	_	SpaceAfter=No
-19	嗰度	_	PRON	_	_	18	case:loc	_	SpaceAfter=No
+19	嗰度	_	ADP	_	_	18	case:loc	_	SpaceAfter=No
 20	。	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 672
@@ -8871,7 +8871,7 @@
 22	自己	_	PRON	_	_	24	nmod	_	SpaceAfter=No
 23	個	_	NOUN	_	NounType=Clf	24	det	_	SpaceAfter=No
 24	座位	_	NOUN	_	_	21	obj	_	SpaceAfter=No
-25	嗰度	_	PRON	_	_	24	case:loc	_	SpaceAfter=No
+25	嗰度	_	ADP	_	_	24	case:loc	_	SpaceAfter=No
 26	呢	_	PART	_	_	18	discourse:sp	_	SpaceAfter=No
 27	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 28	讓	_	VERB	_	_	1	parataxis	_	SpaceAfter=No
@@ -9145,7 +9145,7 @@
 52	依個	_	DET	_	_	54	det	_	SpaceAfter=No
 53	新聞	_	NOUN	_	_	54	compound	_	SpaceAfter=No
 54	傳媒	_	NOUN	_	_	58	obl	_	SpaceAfter=No
-55	嗰度	_	PRON	_	_	54	case:loc	_	SpaceAfter=No
+55	嗰度	_	ADP	_	_	54	case:loc	_	SpaceAfter=No
 56	呢	_	PART	_	_	51	discourse:sp	_	SpaceAfter=No
 57	，	_	PUNCT	_	_	54	punct	_	SpaceAfter=No
 58	係	_	VERB	_	_	45	xcomp	_	SpaceAfter=No
@@ -15601,7 +15601,7 @@
 34	議	_	NOUN	_	_	36	reparandum	_	SpaceAfter=No
 35	-	_	PUNCT	_	_	34	punct	_	SpaceAfter=No
 36	會議廳	_	NOUN	_	_	31	obl	_	SpaceAfter=No
-37	嗰度	_	PRON	_	_	36	case:loc	_	SpaceAfter=No
+37	嗰度	_	ADP	_	_	36	case:loc	_	SpaceAfter=No
 38	嘅話	_	SCONJ	_	_	29	mark	_	SpaceAfter=No
 39	呢	_	PART	_	_	29	discourse:sp	_	SpaceAfter=No
 40	，	_	PUNCT	_	_	42	punct	_	SpaceAfter=No
