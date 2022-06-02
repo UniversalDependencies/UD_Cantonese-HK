@@ -8795,8 +8795,8 @@
 11	嘅	_	PART	_	_	9	case	_	SpaceAfter=No
 12	有	_	VERB	_	_	18	advcl	_	SpaceAfter=No
 13	秩序	_	NOUN	_	_	12	obj	_	SpaceAfter=No
-14	底下	_	ADP	_	_	12	mark	_	SpaceAfter=No
-15	裏便	_	NOUN	_	_	12	mark	_	SpaceAfter=No
+14	底下	_	ADP	_	_	15	case	_	SpaceAfter=No
+15	裏便	_	NOUN	_	_	12	obl	_	SpaceAfter=No
 16	呢	_	PART	_	_	12	discourse:sp	_	SpaceAfter=No
 17	，	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	進行	_	VERB	_	_	5	xcomp	_	SpaceAfter=No
@@ -11368,7 +11368,7 @@
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	你	_	PRON	_	_	10	nsubj	_	SpaceAfter=No
 4	投票	_	VERB	_	_	10	advcl	_	SpaceAfter=No
-5	之前	_	NOUN	_	_	4	mark	_	SpaceAfter=No
+5	之前	_	ADP	_	_	4	mark	_	SpaceAfter=No
 6	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	首先	_	ADV	_	_	10	advmod	_	SpaceAfter=No
 8	必須	_	AUX	_	_	10	aux	_	SpaceAfter=No
@@ -13105,7 +13105,7 @@
 17	-	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	有	_	VERB	_	_	21	advcl	_	SpaceAfter=No
 19	結果	_	NOUN	_	_	18	obj	_	SpaceAfter=No
-20	之後	_	NOUN	_	_	18	mark	_	SpaceAfter=No
+20	之後	_	ADP	_	_	18	mark	_	SpaceAfter=No
 21	宣佈	_	VERB	_	_	11	conj	_	SpaceAfter=No
 22	啦	_	PART	_	_	21	discourse:sp	_	SpaceAfter=No
 23	。	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
