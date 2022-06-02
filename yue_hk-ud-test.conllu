@@ -8397,7 +8397,7 @@
 1	噉	_	ADV	_	_	15	discourse	_	SpaceAfter=No
 2	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	由於	_	SCONJ	_	_	15	mark	_	SpaceAfter=No
-4	呢	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
+4	呢	_	PART	_	_	15	discourse:sp	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	我哋	_	PRON	_	_	12	nmod	_	SpaceAfter=No
 7	今日	_	NOUN	_	_	12	nmod	_	SpaceAfter=No
@@ -9173,7 +9173,7 @@
 13	嗰個	_	DET	_	_	19	det	_	SpaceAfter=No
 14	嘅	_	PART	_	_	18	reparandum	_	SpaceAfter=No
 15	，	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
-16	誒	_	INTJ	_	_	18	discourse	_	SpaceAfter=No
+16	誒	_	INTJ	_	_	12	discourse	_	SpaceAfter=No
 17	-	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	嘅	_	PART	_	_	12	case	_	SpaceAfter=No
 19	場合	_	NOUN	_	_	10	obj	_	SpaceAfter=No
