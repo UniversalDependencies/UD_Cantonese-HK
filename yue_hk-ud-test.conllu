@@ -115,7 +115,7 @@
 1	爺爺	爺爺	NOUN	_	_	7	vocative	_	SpaceAfter=No
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No
-4	可	可	AUX	_	_	7	aux	_	SpaceAfter=No
+4	可	可以	AUX	_	_	7	aux	_	SpaceAfter=No
 5	唔	唔	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	可以	可以	AUX	_	_	4	conj	_	SpaceAfter=No
 7	睇	睇	VERB	_	_	0	root	_	SpaceAfter=No
@@ -2854,7 +2854,7 @@
 # sent_id = 274
 # text = 你可唔可以唔好嘈呀？
 1	你	你	PRON	_	_	6	nsubj	_	SpaceAfter=No
-2	可	可	AUX	_	_	5	aux	_	SpaceAfter=No
+2	可	可以	AUX	_	_	5	aux	_	SpaceAfter=No
 3	唔	唔	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	可以	可以	AUX	_	_	2	aux	_	SpaceAfter=No
 5	唔好	唔好	AUX	_	_	6	aux	_	SpaceAfter=No
