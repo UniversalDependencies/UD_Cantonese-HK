@@ -12,11 +12,11 @@
 1	咪	咪	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	執	執	VERB	_	_	0	root	_	SpaceAfter=No
 3	返	返	VERB	_	_	2	compound:dir	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	嘢	嘢	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	去	去	VERB	_	_	2	conj	_	SpaceAfter=No
 7	阿哥	阿哥	NOUN	_	_	10	nmod	_	SpaceAfter=No
-8	個	個	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+8	個	個	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 9	新	新	ADJ	_	_	10	amod	_	SpaceAfter=No
 10	屋	屋	NOUN	_	_	6	obj	_	SpaceAfter=No
 11	度	度	ADP	_	_	10	case:loc	_	SpaceAfter=No
@@ -102,7 +102,7 @@
 
 # sent_id = 9
 # text = 部機都冇咗嘞。
-1	部	部	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	部	部	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	機	機	NOUN	_	_	4	nsubj	_	SpaceAfter=No
 3	都	都	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	冇	冇	VERB	_	_	0	root	_	SpaceAfter=No
@@ -139,7 +139,7 @@
 8	你	你	PRON	_	_	7	obj	_	SpaceAfter=No
 9	對	對	VERB	_	_	1	conj	_	SpaceAfter=No
 10	晒	晒	PART	_	_	9	compound:quant	_	SpaceAfter=No
-11	啲	啲	NOUN	_	NounType=Clf	12	det	_	SpaceAfter=No
+11	啲	啲	NOUN	_	NounType=Clf	12	clf:det	_	SpaceAfter=No
 12	功課	功課	NOUN	_	_	9	obj	_	SpaceAfter=No
 13	先	先	ADV	_	_	14	advmod	_	SpaceAfter=No
 14	睇	睇	VERB	_	_	0	root	_	SpaceAfter=No
@@ -247,7 +247,7 @@
 2	都	都	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	講	講	VERB	_	_	0	root	_	SpaceAfter=No
 4	埋	埋	PART	_	_	3	advmod	_	SpaceAfter=No
-5	啲	啲	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+5	啲	啲	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 6	咩	咩	PRON	_	_	7	det	_	SpaceAfter=No
 7	龜波氣功	龜波氣功	NOUN	_	_	3	obj	_	SpaceAfter=No
 8	吖	吖	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -486,7 +486,7 @@
 1	姐姐	姐姐	NOUN	_	_	8	vocative	_	SpaceAfter=No
 2	呀	呀	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 3	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	錢	錢	NOUN	_	_	6	obj:periph	_	SpaceAfter=No
 6	畀	畀	VERB	_	_	8	advcl	_	SpaceAfter=No
 7	我	我	PRON	_	_	6	obj	_	SpaceAfter=No
@@ -900,7 +900,7 @@
 
 # sent_id = 93
 # text = 張閃卡本來係我㗎嘛。
-1	張	張	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	張	張	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	閃卡	閃卡	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 3	本來	本來	ADV	_	_	5	advmod	_	SpaceAfter=No
 4	係	係	AUX	_	_	5	cop	_	SpaceAfter=No
@@ -948,7 +948,7 @@
 
 # sent_id = 98
 # text = 啲卡都冇咗啦。
-1	啲	啲	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	啲	啲	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	卡	卡	NOUN	_	_	4	nsubj	_	SpaceAfter=No
 3	都	都	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	冇	冇	VERB	_	_	0	root	_	SpaceAfter=No
@@ -961,7 +961,7 @@
 1	欸	欸	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	影	影	VERB	_	_	0	root	_	SpaceAfter=No
-4	張	張	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	張	張	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	相	相	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	畀	畀	ADP	_	_	7	case	_	SpaceAfter=No
 7	阿哥	阿哥	NOUN	_	_	8	obl	_	SpaceAfter=No
@@ -1003,7 +1003,7 @@
 # text = 哎，啲帶好麻煩。
 1	哎	哎	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	帶	帶	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 5	好	好	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	麻煩	麻煩	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1177,7 +1177,7 @@
 3	你	你	PRON	_	_	2	obj	_	SpaceAfter=No
 4	睇	睇	VERB	_	_	0	root	_	SpaceAfter=No
 5	返	返	VERB	_	_	4	compound:dir	_	SpaceAfter=No
-6	啲	啲	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+6	啲	啲	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 7	錄影帶	錄影帶	NOUN	_	_	4	obj	_	SpaceAfter=No
 8	！	！	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
@@ -1401,7 +1401,7 @@
 2	整	整	VERB	_	_	0	root	_	SpaceAfter=No
 3	壞	壞	VERB	_	_	2	compound:vv	_	SpaceAfter=No
 4	我	我	PRON	_	_	6	nmod	_	SpaceAfter=No
-5	部	部	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	部	部	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	機	機	NOUN	_	_	2	obj	_	SpaceAfter=No
 7	呀	呀	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 8	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -1504,7 +1504,7 @@
 1	喂	喂	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	呀	呀	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 3	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	閃	閃	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 6	喺	喺	VERB	_	_	0	root	_	SpaceAfter=No
 7	佢	佢	PRON	_	_	6	obj	_	SpaceAfter=No
@@ -1661,7 +1661,7 @@
 1	又	又	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	話	話	VERB	_	_	0	root	_	SpaceAfter=No
 3	拎	拎	VERB	_	_	2	ccomp	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	嘢	嘢	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	畀	畀	VERB	_	_	3	conj	_	SpaceAfter=No
 7	你	你	PRON	_	_	8	nmod	_	SpaceAfter=No
@@ -2316,21 +2316,21 @@
 # sent_id = 225
 # text = 嗰陣時啲CD舖仲多過而家啲七十一。
 1	嗰陣時	嗰陣時	NOUN	_	_	4	nmod	_	SpaceAfter=No
-2	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+2	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 3	CD	CD	NOUN	_	_	4	compound	_	SpaceAfter=No
 4	舖	舖	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 5	仲	仲	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	多	多	ADJ	_	_	0	root	_	SpaceAfter=No
 7	過	過	ADP	_	_	10	case	_	SpaceAfter=No
 8	而家	而家	NOUN	_	_	10	nmod	_	SpaceAfter=No
-9	啲	啲	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+9	啲	啲	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 10	七十一	七十一	PROPN	_	_	6	obl	_	SpaceAfter=No
 11	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 226
 # text = 明明啲CD同而家一樣都係一百蚊倒咋嘛。
 1	明明	明明	ADV	_	_	6	advmod	_	SpaceAfter=No
-2	啲	啲	NOUN	_	NounType=Clf	3	det	_	SpaceAfter=No
+2	啲	啲	NOUN	_	NounType=Clf	3	clf:det	_	SpaceAfter=No
 3	CD	CD	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 4	同	同	VERB	_	_	6	advcl:coverb	_	SpaceAfter=No
 5	而家	而家	NOUN	_	_	4	obj	_	SpaceAfter=No
@@ -2446,7 +2446,7 @@
 
 # sent_id = 235
 # text = 啲CD又唔係我嘅！
-1	啲	啲	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	啲	啲	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	CD	CD	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 3	又	又	ADV	_	_	6	advmod	_	SpaceAfter=No
 4	唔	唔	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -2461,7 +2461,7 @@
 2	啲	啲	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	畀	畀	VERB	_	_	0	root	_	SpaceAfter=No
 4	返	返	VERB	_	_	3	compound:dir	_	SpaceAfter=No
-5	啲	啲	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	啲	啲	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	錢	錢	NOUN	_	_	3	obj	_	SpaceAfter=No
 7	我	我	PRON	_	_	3	iobj	_	SpaceAfter=No
 8	呀	呀	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -2556,7 +2556,7 @@
 2	⋯⋯	⋯⋯	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	你	你	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	買	買	VERB	_	_	0	root	_	SpaceAfter=No
-5	本	本	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	本	本	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	Yes!	Yes!	PROPN	_	_	4	obj	_	SpaceAfter=No
 7	畀	畀	ADP	_	_	8	case	_	SpaceAfter=No
 8	我	我	PRON	_	_	4	obl	_	SpaceAfter=No
@@ -2683,7 +2683,7 @@
 2	仲	仲	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	出現	出現	VERB	_	_	0	root	_	SpaceAfter=No
 4	咗	咗	AUX	_	_	3	aux	_	SpaceAfter=No
-5	本	本	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	本	本	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	Yes!	Yes!	PROPN	_	_	3	obj	_	SpaceAfter=No
 7	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
@@ -2708,7 +2708,7 @@
 3	我	我	PRON	_	_	4	nsubj	_	SpaceAfter=No
 4	拎	拎	VERB	_	_	0	root	_	SpaceAfter=No
 5	住	住	AUX	_	_	4	aux	_	SpaceAfter=No
-6	本	本	NOUN	_	NounType=Clf	9	det	_	SpaceAfter=No
+6	本	本	NOUN	_	NounType=Clf	9	clf:det	_	SpaceAfter=No
 7	爛吓爛吓	爛吓爛吓	ADJ	_	_	9	amod	_	SpaceAfter=No
 8	嘅	嘅	PART	_	_	7	mark:rel	_	SpaceAfter=No
 9	Yes!	Yes!	PROPN	_	_	4	obj	_	SpaceAfter=No
@@ -2977,7 +2977,7 @@
 3	呢	呢	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-6	啲	啲	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+6	啲	啲	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 7	問題	問題	NOUN	_	_	5	obj	_	SpaceAfter=No
 8	想	想	AUX	_	_	9	aux	_	SpaceAfter=No
 9	問	問	VERB	_	_	7	acl	_	SpaceAfter=No
@@ -3043,7 +3043,7 @@
 1	喂	喂	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	借	借	VERB	_	_	0	root	_	SpaceAfter=No
-4	餅	餅	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	餅	餅	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	帶	帶	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	嚟	唻	VERB	_	_	3	compound:dir	_	SpaceAfter=No
 7	吖	吖	PART	_	_	3	discourse:sp	_	SpaceAfter=No
@@ -3066,7 +3066,7 @@
 # text = 我有個朋友八號生日呀！
 1	我	我	PRON	_	_	2	nsubj	_	SpaceAfter=No
 2	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-3	個	個	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	個	個	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	朋友	朋友	NOUN	_	_	2	obj	_	SpaceAfter=No
 5	八號	八號	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No
 6	生日	生日	VERB	_	_	4	acl	_	SpaceAfter=No
@@ -3078,7 +3078,7 @@
 1	我	我	PRON	_	_	3	nsubj	_	SpaceAfter=No
 2	想	想	AUX	_	_	3	aux	_	SpaceAfter=No
 3	錄	錄	VERB	_	_	0	root	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	嘢	嘢	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	畀	畀	ADP	_	_	7	case	_	SpaceAfter=No
 7	佢	佢	PRON	_	_	3	obl	_	SpaceAfter=No
@@ -3394,7 +3394,7 @@
 10	直接	直接	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	送	送	VERB	_	_	5	ccomp	_	SpaceAfter=No
 12	千嬅	千嬅	PROPN	_	_	14	nmod	_	SpaceAfter=No
-13	隻	隻	NOUN	_	NounType=Clf	14	det	_	SpaceAfter=No
+13	隻	隻	NOUN	_	NounType=Clf	14	clf:det	_	SpaceAfter=No
 14	碟	碟	NOUN	_	_	11	obj	_	SpaceAfter=No
 15	畀	畀	ADP	_	_	17	case	_	SpaceAfter=No
 16	佢	佢	PRON	_	_	17	nmod	_	SpaceAfter=No
@@ -3552,7 +3552,7 @@
 2	試	試	VERB	_	_	0	root	_	SpaceAfter=No
 3	下	下	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	將	將	ADP	_	_	6	case	_	SpaceAfter=No
-5	條	條	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	條	條	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	天線	天線	NOUN	_	_	7	obl:patient	_	SpaceAfter=No
 7	㨃	㨃	VERB	_	_	2	ccomp	_	SpaceAfter=No
 8	出	出	VERB	_	_	7	compound:dir	_	SpaceAfter=No
@@ -3582,7 +3582,7 @@
 # sent_id = 349
 # text = 轉個圈啦，不如。
 1	轉	轉	VERB	_	_	0	root	_	SpaceAfter=No
-2	個	個	NOUN	_	NounType=Clf	3	det	_	SpaceAfter=No
+2	個	個	NOUN	_	NounType=Clf	3	clf:det	_	SpaceAfter=No
 3	圈	圈	NOUN	_	_	1	obj	_	SpaceAfter=No
 4	啦	喇	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 5	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -3961,7 +3961,7 @@
 4	送	送	VERB	_	_	1	advcl	_	SpaceAfter=No
 5	畀	畀	ADP	_	_	6	case	_	SpaceAfter=No
 6	你	你	PRON	_	_	8	nmod	_	SpaceAfter=No
-7	個	個	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	個	個	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	朋友	朋友	NOUN	_	_	4	obl	_	SpaceAfter=No
 9	吖	吖	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 10	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -4315,7 +4315,7 @@
 4	噉	噉	ADV	_	_	6	discourse	_	SpaceAfter=No
 5	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-7	啲	啲	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	啲	啲	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	人	人	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	退	退	VERB	_	_	13	advcl	_	SpaceAfter=No
 10	咗	咗	AUX	_	_	9	aux	_	SpaceAfter=No
@@ -4423,7 +4423,7 @@
 3	湯	湯	PROPN	_	_	2	obj	_	SpaceAfter=No
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	不過	不過	CCONJ	_	_	13	advmod	_	SpaceAfter=No
-6	啲	啲	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+6	啲	啲	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 7	人	人	NOUN	_	_	13	nsubj	_	SpaceAfter=No
 8	成	成	DET	_	_	10	det	_	SpaceAfter=No
 9	條	條	NOUN	_	NounType=Clf	8	clf	_	SpaceAfter=No
@@ -4484,7 +4484,7 @@
 7	我	我	PRON	_	_	9	nsubj	_	SpaceAfter=No
 8	好	好	ADV	_	_	3	advmod	_	SpaceAfter=No
 9	多謝	多謝	VERB	_	_	3	parataxis	_	SpaceAfter=No
-10	個	個	NOUN	_	NounType=Clf	11	det	_	SpaceAfter=No
+10	個	個	NOUN	_	NounType=Clf	11	clf:det	_	SpaceAfter=No
 11	老世	老世	NOUN	_	_	9	obj	_	SpaceAfter=No
 12	呀	呀	PART	_	_	9	discourse:sp	_	SpaceAfter=No
 13	，	，	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -4602,7 +4602,7 @@
 4	吖	吖	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 5	：	：	PUNCT	_	_	1	punct	_	SpaceAfter=No
 6	你哋	你哋	PRON	_	_	8	nmod	_	SpaceAfter=No
-7	啲	啲	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	啲	啲	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	後生仔	後生仔	NOUN	_	_	12	vocative	_	SpaceAfter=No
 9	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	我	我	PRON	_	_	12	nsubj	_	SpaceAfter=No
@@ -4665,7 +4665,7 @@
 6	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No
 7	教	教	VERB	_	_	1	parataxis	_	SpaceAfter=No
 8	我	我	PRON	_	_	10	nmod	_	SpaceAfter=No
-9	個	個	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+9	個	個	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 10	女	女	NOUN	_	_	7	obj	_	SpaceAfter=No
 11	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	真	真	ADV	_	_	13	advmod	_	SpaceAfter=No
@@ -4751,7 +4751,7 @@
 # sent_id = 438
 # text = 或者個key唔啱呃，佢都可以唱，嚟發洩自己。
 1	或者	或者	ADV	_	_	5	advmod	_	SpaceAfter=No
-2	個	個	NOUN	_	NounType=Clf	3	det	_	SpaceAfter=No
+2	個	個	NOUN	_	NounType=Clf	3	clf:det	_	SpaceAfter=No
 3	key	key	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 4	唔	唔	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	啱	啱	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -4779,7 +4779,7 @@
 8	。	。	PUNCT	_	_	4	punct	_	SpaceAfter=No
 9	係	係	VERB	_	_	4	parataxis	_	SpaceAfter=No
 10	畀	畀	VERB	_	_	9	ccomp	_	SpaceAfter=No
-11	啲	啲	NOUN	_	NounType=Clf	13	det	_	SpaceAfter=No
+11	啲	啲	NOUN	_	NounType=Clf	13	clf:det	_	SpaceAfter=No
 12	大家	大家	PRON	_	_	13	nmod	_	SpaceAfter=No
 13	勞動者	勞動者	NOUN	_	_	10	obj	_	SpaceAfter=No
 14	呀	呀	PART	_	_	10	discourse:sp	_	SpaceAfter=No
@@ -4801,7 +4801,7 @@
 30	旅遊人士	旅遊人士	VERB	_	_	29	obj	_	SpaceAfter=No
 31	呀	呀	PART	_	_	29	discourse:sp	_	SpaceAfter=No
 32	。	。	PUNCT	_	_	29	punct	_	SpaceAfter=No
-33	啲	啲	NOUN	_	NounType=Clf	34	det	_	SpaceAfter=No
+33	啲	啲	NOUN	_	NounType=Clf	34	clf:det	_	SpaceAfter=No
 34	西人	西人	NOUN	_	_	39	dislocated	_	SpaceAfter=No
 35	呀	呀	PART	_	_	34	discourse:sp	_	SpaceAfter=No
 36	，	，	PUNCT	_	_	34	punct	_	SpaceAfter=No
@@ -4812,7 +4812,7 @@
 41	捧場	捧場	VERB	_	_	39	conj	_	SpaceAfter=No
 42	㗎	㗎	PART	_	_	39	discourse:sp	_	SpaceAfter=No
 43	，	，	PUNCT	_	_	39	punct	_	SpaceAfter=No
-44	啲	啲	NOUN	_	NounType=Clf	45	det	_	SpaceAfter=No
+44	啲	啲	NOUN	_	NounType=Clf	45	clf:det	_	SpaceAfter=No
 45	西人	西人	NOUN	_	_	39	conj	_	SpaceAfter=No
 46	。	。	PUNCT	_	_	39	punct	_	SpaceAfter=No
 
@@ -4952,7 +4952,7 @@
 21	到	到	VERB	_	_	19	compound:vv	_	SpaceAfter=No
 22	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No
 23	搵	搵	VERB	_	_	12	parataxis	_	SpaceAfter=No
-24	啲	啲	NOUN	_	NounType=Clf	25	det	_	SpaceAfter=No
+24	啲	啲	NOUN	_	NounType=Clf	25	clf:det	_	SpaceAfter=No
 25	工人	工人	NOUN	_	_	23	obj	_	SpaceAfter=No
 26	拉	拉	VERB	_	_	23	xcomp	_	SpaceAfter=No
 27	。	。	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -5009,7 +5009,7 @@
 1	每	每	DET	_	_	2	det	_	SpaceAfter=No
 2	天	天	NOUN	_	NounType=Clf	7	obl	_	SpaceAfter=No
 3	對住	對住	ADP	_	_	5	case	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	人	人	NOUN	_	_	7	obl	_	SpaceAfter=No
 6	又	又	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	笑	笑	VERB	_	_	11	advcl	_	SpaceAfter=No
@@ -5025,7 +5025,7 @@
 # text = 對即使啲乞兒呀，呢啲，呀，飲醉酒、醉貓呀，喺呢度飲醉酒呀，或者乞兒好臭呀，我都唔鬧佢哋嘅，照坐。
 1	對	對	VERB	_	_	35	advcl:coverb	_	SpaceAfter=No
 2	即使	即使	SCONJ	_	_	4	mark	_	SpaceAfter=No
-3	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	乞兒	乞兒	NOUN	_	_	1	obj	_	SpaceAfter=No
 5	呀	呀	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 6	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5098,7 +5098,7 @@
 
 # sent_id = 452
 # text = 啲屋企人有冇話：「哎吔，唔好開歌檔呀，好大壓力呀。」
-1	啲	啲	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	啲	啲	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	屋企人	屋企人	NOUN	_	_	3	nsubj	_	SpaceAfter=No
 3	有	有	AUX	_	_	5	aux	_	SpaceAfter=No
 4	冇	冇	AUX	_	_	3	conj	_	SpaceAfter=No
@@ -5262,7 +5262,7 @@
 11	成日	成日	ADV	_	_	10	advmod	_	SpaceAfter=No
 12	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	呢度	呢度	PRON	_	_	15	nmod	_	SpaceAfter=No
-14	啲	啲	NOUN	_	NounType=Clf	15	det	_	SpaceAfter=No
+14	啲	啲	NOUN	_	NounType=Clf	15	clf:det	_	SpaceAfter=No
 15	人	人	NOUN	_	_	17	nsubj	_	SpaceAfter=No
 16	成日	成日	ADV	_	_	17	advmod	_	SpaceAfter=No
 17	唱	唱	VERB	_	_	9	acl	_	SpaceAfter=No
@@ -5515,7 +5515,7 @@
 19	做	做	VERB	_	_	14	conj	_	SpaceAfter=No
 20	咗	咗	AUX	_	_	19	aux	_	SpaceAfter=No
 21	第二	第二	ADJ	_	_	23	amod	_	SpaceAfter=No
-22	啲	啲	NOUN	_	NounType=Clf	23	det	_	SpaceAfter=No
+22	啲	啲	NOUN	_	NounType=Clf	23	clf:det	_	SpaceAfter=No
 23	嘢	嘢	NOUN	_	_	19	obj	_	SpaceAfter=No
 24	，	，	PUNCT	_	_	26	punct	_	SpaceAfter=No
 25	我	我	PRON	_	_	26	nsubj	_	SpaceAfter=No
@@ -5547,7 +5547,7 @@
 4	個	個	NOUN	_	NounType=Clf	3	obj	_	SpaceAfter=No
 5	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 6	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-7	個	個	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	個	個	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	箱	箱	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	嘅	嘅	PART	_	_	6	discourse:sp	_	SpaceAfter=No
 10	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -5568,7 +5568,7 @@
 1	你	你	PRON	_	_	5	reparandum	_	SpaceAfter=No
 2	就	就	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
-4	啲	啲	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	人	人	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 6	畀	畀	VERB	_	_	0	root	_	SpaceAfter=No
 7	利是	利是	NOUN	_	_	6	obj	_	SpaceAfter=No
@@ -5623,7 +5623,7 @@
 4	，	，	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	哇	哇	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	，	，	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	啲	啲	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	啲	啲	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	租	租	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 9	又	又	ADV	_	_	11	advmod	_	SpaceAfter=No
 10	咁	咁	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -5689,7 +5689,7 @@
 # sent_id = 482
 # text = 我個-我藝名叫做金燕子，係呀，金燕子，係呀，係我喺廟街，呢個廟街嘅藝名-藝名嚟㗎。
 1	我	我	PRON	_	_	4	reparandum	_	SpaceAfter=No
-2	個	個	NOUN	_	NounType=Clf	1	det	_	SpaceAfter=No
+2	個	個	NOUN	_	NounType=Clf	1	clf:det	_	SpaceAfter=No
 3	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	我	我	PRON	_	_	5	compound	_	SpaceAfter=No
 5	藝名	藝名	NOUN	_	_	6	nsubj	_	SpaceAfter=No
@@ -5771,11 +5771,11 @@
 4	就	就	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	係	係	VERB	_	_	0	root	_	SpaceAfter=No
 6	靠	靠	VERB	_	_	9	advcl:coverb	_	SpaceAfter=No
-7	啲	啲	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	啲	啲	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	客	客	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	打賞	打賞	VERB	_	_	5	ccomp	_	SpaceAfter=No
 10	畀	畀	ADP	_	_	12	case	_	SpaceAfter=No
-11	個	個	NOUN	_	NounType=Clf	12	det	_	SpaceAfter=No
+11	個	個	NOUN	_	NounType=Clf	12	clf:det	_	SpaceAfter=No
 12	歌手	歌手	NOUN	_	_	9	obl	_	SpaceAfter=No
 13	呀	呀	PART	_	_	5	discourse:sp	_	SpaceAfter=No
 14	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -5822,7 +5822,7 @@
 13	噉	噉	ADV	_	_	15	discourse	_	SpaceAfter=No
 14	我哋	我哋	PRON	_	_	15	nsubj	_	SpaceAfter=No
 15	有	有	VERB	_	_	8	parataxis	_	SpaceAfter=No
-16	個	個	NOUN	_	NounType=Clf	18	det	_	SpaceAfter=No
+16	個	個	NOUN	_	NounType=Clf	18	clf:det	_	SpaceAfter=No
 17	最低	最低	ADJ	_	_	18	amod	_	SpaceAfter=No
 18	消費	消費	NOUN	_	_	15	obj	_	SpaceAfter=No
 19	㗎	㗎	PART	_	_	15	discourse:sp	_	SpaceAfter=No
@@ -5934,7 +5934,7 @@
 2	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
 3	終於	終於	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-5	個	個	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	個	個	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	朋友	朋友	NOUN	_	_	4	obj	_	SpaceAfter=No
 7	呢	呢	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 8	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -5984,7 +5984,7 @@
 33	誒	誒	INTJ	_	_	40	discourse	_	SpaceAfter=No
 34	但係	但係	CCONJ	_	_	40	advmod	_	SpaceAfter=No
 35	嗰度	嗰度	PRON	_	_	37	nmod	_	SpaceAfter=No
-36	啲	啲	NOUN	_	NounType=Clf	35	det	_	SpaceAfter=No
+36	啲	啲	NOUN	_	NounType=Clf	35	clf:det	_	SpaceAfter=No
 37	唱歌	唱歌	VERB	_	_	40	nsubj	_	SpaceAfter=No
 38	就	就	ADV	_	_	40	advmod	_	SpaceAfter=No
 39	唔	唔	ADV	_	_	40	advmod	_	SpaceAfter=No
@@ -5993,7 +5993,7 @@
 42	，	，	PUNCT	_	_	43	punct	_	SpaceAfter=No
 43	係	係	VERB	_	_	40	conj	_	SpaceAfter=No
 44	靠	靠	VERB	_	_	47	advcl:coverb	_	SpaceAfter=No
-45	啲	啲	NOUN	_	NounType=Clf	46	det	_	SpaceAfter=No
+45	啲	啲	NOUN	_	NounType=Clf	46	clf:det	_	SpaceAfter=No
 46	客	客	NOUN	_	_	44	obj	_	SpaceAfter=No
 47	打賞	打賞	VERB	_	_	43	ccomp	_	SpaceAfter=No
 48	呀	呀	PART	_	_	47	discourse:sp	_	SpaceAfter=No
@@ -6011,7 +6011,7 @@
 6	呢	呢	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 7	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
 8	香港	香港	PROPN	_	_	10	nmod	_	SpaceAfter=No
-9	啲	啲	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+9	啲	啲	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 10	朋友	朋友	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 11	就	就	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	同	同	VERB	_	_	14	advcl:coverb	_	SpaceAfter=No
@@ -6049,7 +6049,7 @@
 # text = 因為呢度啲歌手呢，要啲-係要陪啲客飲酒啦，傾偈啦，要睇你接唔接受倒囖。
 1	因為	因為	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	呢度	呢度	PRON	_	_	4	nmod	_	SpaceAfter=No
-3	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	歌手	歌手	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 5	呢	呢	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 6	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -6059,7 +6059,7 @@
 10	係	係	VERB	_	_	0	root	_	SpaceAfter=No
 11	要	要	AUX	_	_	12	aux	_	SpaceAfter=No
 12	陪	陪	VERB	_	_	10	ccomp	_	SpaceAfter=No
-13	啲	啲	NOUN	_	NounType=Clf	14	det	_	SpaceAfter=No
+13	啲	啲	NOUN	_	NounType=Clf	14	clf:det	_	SpaceAfter=No
 14	客	客	NOUN	_	_	12	obj	_	SpaceAfter=No
 15	飲酒	飲酒	VERB	_	_	12	xcomp	_	SpaceAfter=No
 16	啦	喇	PART	_	_	12	discourse:sp	_	SpaceAfter=No
@@ -6101,7 +6101,7 @@
 20	唔	唔	ADV	_	_	21	advmod	_	SpaceAfter=No
 21	需要	需要	AUX	_	_	25	aux	_	SpaceAfter=No
 22	同	同	VERB	_	_	25	advcl:coverb	_	SpaceAfter=No
-23	啲	啲	NOUN	_	NounType=Clf	24	det	_	SpaceAfter=No
+23	啲	啲	NOUN	_	NounType=Clf	24	clf:det	_	SpaceAfter=No
 24	客	客	NOUN	_	_	22	obj	_	SpaceAfter=No
 25	打招呼	打招呼	VERB	_	_	11	conj	_	SpaceAfter=No
 26	啦	喇	PART	_	_	6	discourse:sp	_	SpaceAfter=No
@@ -6194,7 +6194,7 @@
 1	噉	噉	ADV	_	_	10	discourse	_	SpaceAfter=No
 2	我	我	PRON	_	_	10	nsubj	_	SpaceAfter=No
 3	當時	當時	NOUN	_	_	10	obl:tmod	_	SpaceAfter=No
-4	個	個	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	個	個	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	內心	內心	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 6	都	都	ADV	_	_	10	advmod	_	SpaceAfter=No
 7	覺得	覺得	AUX	_	_	10	aux	_	SpaceAfter=No
@@ -6466,7 +6466,7 @@
 2	返	返	VERB	_	_	0	root	_	SpaceAfter=No
 3	屋企	屋企	NOUN	_	_	2	obj	_	SpaceAfter=No
 4	沖	沖	VERB	_	_	2	conj	_	SpaceAfter=No
-5	個	個	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+5	個	個	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 6	涼	涼	NOUN	_	_	4	compound:vo	_	SpaceAfter=No
 7	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	搵	搵	VERB	_	_	2	conj	_	SpaceAfter=No
@@ -6651,7 +6651,7 @@
 20	行	行	VERB	_	_	10	ccomp	_	SpaceAfter=No
 21	嘅	嘅	PART	_	_	20	discourse:sp	_	SpaceAfter=No
 22	，	，	PUNCT	_	_	20	punct	_	SpaceAfter=No
-23	條	條	NOUN	_	NounType=Clf	24	det	_	SpaceAfter=No
+23	條	條	NOUN	_	NounType=Clf	24	clf:det	_	SpaceAfter=No
 24	路	路	NOUN	_	_	20	nsubj:periph	_	SpaceAfter=No
 25	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
@@ -6746,7 +6746,7 @@
 # text = 噉有啲人移民咗去外國呢，都返嚟講話：「阿紅姐，你千祈唔好執咗呢個檔呀，呢度係廟街嘅文化。」
 1	噉	噉	ADV	_	_	2	discourse	_	SpaceAfter=No
 2	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-3	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	人	人	NOUN	_	_	2	obj	_	SpaceAfter=No
 5	移民	移民	VERB	_	_	4	acl	_	SpaceAfter=No
 6	咗	咗	AUX	_	_	5	aux	_	SpaceAfter=No
@@ -6800,7 +6800,7 @@
 16	噉	噉	ADV	_	_	18	nsubj	_	SpaceAfter=No
 17	就	就	ADV	_	_	18	advmod	_	SpaceAfter=No
 18	有	有	VERB	_	_	5	parataxis	_	SpaceAfter=No
-19	啲	啲	NOUN	_	NounType=Clf	20	det	_	SpaceAfter=No
+19	啲	啲	NOUN	_	NounType=Clf	20	clf:det	_	SpaceAfter=No
 20	特色	特色	NOUN	_	_	18	obj	_	SpaceAfter=No
 21	喺度	喺度	ADV	_	_	18	obl	_	SpaceAfter=No
 22	囖	囖	PART	_	_	18	discourse:sp	_	SpaceAfter=No
@@ -6848,7 +6848,7 @@
 
 # sent_id = 533
 # text = 啲人呀，嗰陣時呢，八零年-年代呀、七零年代呀，用啲五百蚊紙摺架飛機飛埋嚟。好捨得畀錢㗎。
-1	啲	啲	NOUN	_	NounType=Clf	2	det	_	SpaceAfter=No
+1	啲	啲	NOUN	_	NounType=Clf	2	clf:det	_	SpaceAfter=No
 2	人	人	NOUN	_	_	22	nsubj	_	SpaceAfter=No
 3	呀	呀	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -6865,12 +6865,12 @@
 15	呀	呀	PART	_	_	14	discourse:sp	_	SpaceAfter=No
 16	，	，	PUNCT	_	_	11	punct	_	SpaceAfter=No
 17	用	用	VERB	_	_	22	advcl:coverb	_	SpaceAfter=No
-18	啲	啲	NOUN	_	NounType=Clf	20	det	_	SpaceAfter=No
+18	啲	啲	NOUN	_	NounType=Clf	20	clf:det	_	SpaceAfter=No
 19	五百	五百	NUM	_	_	20	nummod	_	SpaceAfter=No
 20	蚊	緡	NOUN	_	NounType=Clf	21	compound	_	SpaceAfter=No
 21	紙	紙	NOUN	_	_	17	obj	_	SpaceAfter=No
 22	摺	摺	VERB	_	_	0	root	_	SpaceAfter=No
-23	架	架	NOUN	_	NounType=Clf	24	det	_	SpaceAfter=No
+23	架	架	NOUN	_	NounType=Clf	24	clf:det	_	SpaceAfter=No
 24	飛機	飛機	NOUN	_	_	22	obj	_	SpaceAfter=No
 25	飛	飛	VERB	_	_	22	conj	_	SpaceAfter=No
 26	埋	埋	VERB	_	_	25	compound:dir	_	SpaceAfter=No
@@ -7114,7 +7114,7 @@
 10	即係	即係	ADV	_	_	12	advmod	_	SpaceAfter=No
 11	話	話	PART	_	_	12	mark	_	SpaceAfter=No
 12	有	有	VERB	_	_	0	root	_	SpaceAfter=No
-13	啲	啲	NOUN	_	NounType=Clf	14	det	_	SpaceAfter=No
+13	啲	啲	NOUN	_	NounType=Clf	14	clf:det	_	SpaceAfter=No
 14	人	人	NOUN	_	_	12	obj	_	SpaceAfter=No
 15	投訴	投訴	VERB	_	_	14	acl	_	SpaceAfter=No
 16	啦	喇	PART	_	_	12	discourse:sp	_	SpaceAfter=No
@@ -7659,7 +7659,7 @@
 9	呢	呢	PART	_	_	8	discourse:sp	_	SpaceAfter=No
 10	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	我	我	PRON	_	_	14	nsubj	_	SpaceAfter=No
-12	個	個	NOUN	_	NounType=Clf	13	det	_	SpaceAfter=No
+12	個	個	NOUN	_	NounType=Clf	13	clf:det	_	SpaceAfter=No
 13	仔	仔	NOUN	_	_	15	nsubj	_	SpaceAfter=No
 14	問	問	VERB	_	_	3	conj	_	SpaceAfter=No
 15	我	我	PRON	_	_	14	obj	_	SpaceAfter=No
@@ -7890,7 +7890,7 @@
 # text = 太新啲歌。
 1	太	太	ADV	_	_	2	advmod	_	SpaceAfter=No
 2	新	新	ADJ	_	_	0	root	_	SpaceAfter=No
-3	啲	啲	NOUN	_	NounType=Clf	4	det	_	SpaceAfter=No
+3	啲	啲	NOUN	_	NounType=Clf	4	clf:det	_	SpaceAfter=No
 4	歌	歌	NOUN	_	_	2	nsubj:periph	_	SpaceAfter=No
 5	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -8024,7 +8024,7 @@
 3	你	你	PRON	_	_	2	obj	_	SpaceAfter=No
 4	度	度	ADP	_	_	2	ccomp	_	SpaceAfter=No
 5	好	好	ADJ	_	_	2	compound:vv	_	SpaceAfter=No
-6	個	個	NOUN	_	NounType=Clf	7	det	_	SpaceAfter=No
+6	個	個	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 7	尺寸	尺寸	NOUN	_	_	4	obj	_	SpaceAfter=No
 8	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
@@ -8056,7 +8056,7 @@
 1	唔好	唔好	AUX	_	_	3	aux	_	SpaceAfter=No
 2	咁	咁	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	近	近	VERB	_	_	0	root	_	SpaceAfter=No
-4	個	個	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	個	個	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	電視機	電視機	NOUN	_	_	3	obj	_	SpaceAfter=No
 6	呀	呀	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 7	！	！	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -8230,7 +8230,7 @@
 14	係	_	VERB	_	_	0	root	_	SpaceAfter=No
 15	作	_	VERB	_	_	14	ccomp	_	SpaceAfter=No
 16	咗	_	AUX	_	_	15	aux	_	SpaceAfter=No
-17	個	_	NOUN	_	NounType=Clf	19	det	_	SpaceAfter=No
+17	個	_	NOUN	_	NounType=Clf	19	clf:det	_	SpaceAfter=No
 18	嘅	_	PART	_	_	17	case	_	SpaceAfter=No
 19	宣佈	_	NOUN	_	_	15	obj	_	SpaceAfter=No
 20	，	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -8385,7 +8385,7 @@
 # text = 或者有啲嘅地方需要澄清。
 1	或者	_	CCONJ	_	_	2	advmod	_	SpaceAfter=No
 2	有	_	VERB	_	_	0	root	_	SpaceAfter=No
-3	啲	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+3	啲	_	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 4	嘅	_	PART	_	_	3	case	_	SpaceAfter=No
 5	地方	_	NOUN	_	_	2	obj	_	SpaceAfter=No
 6	需要	_	AUX	_	_	7	aux	_	SpaceAfter=No
@@ -8869,7 +8869,7 @@
 20	返	_	VERB	_	_	19	compound:dir	_	SpaceAfter=No
 21	埋去	_	VERB	_	_	19	compound:dir	_	SpaceAfter=No
 22	自己	_	PRON	_	_	24	nmod	_	SpaceAfter=No
-23	個	_	NOUN	_	NounType=Clf	24	det	_	SpaceAfter=No
+23	個	_	NOUN	_	NounType=Clf	24	clf:det	_	SpaceAfter=No
 24	座位	_	NOUN	_	_	21	obj	_	SpaceAfter=No
 25	嗰度	_	ADP	_	_	24	case:loc	_	SpaceAfter=No
 26	呢	_	PART	_	_	18	discourse:sp	_	SpaceAfter=No
@@ -9369,7 +9369,7 @@
 6	幫幫	_	VERB	_	_	8	reparandum	_	SpaceAfter=No
 7	-	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	俾	_	VERB	_	_	2	ccomp	_	SpaceAfter=No
-9	個	_	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+9	個	_	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 10	名單	_	NOUN	_	_	8	obj	_	SpaceAfter=No
 11	我	_	PRON	_	_	8	iobj	_	SpaceAfter=No
 12	，	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -9686,7 +9686,7 @@
 30	咗	_	AUX	_	_	29	aux	_	SpaceAfter=No
 31	你	_	PRON	_	_	32	nmod	_	SpaceAfter=No
 32	自己	_	PRON	_	_	34	nmod	_	SpaceAfter=No
-33	個	_	NOUN	_	NounType=Clf	34	det	_	SpaceAfter=No
+33	個	_	NOUN	_	NounType=Clf	34	clf:det	_	SpaceAfter=No
 34	座位	_	NOUN	_	_	29	obj	_	SpaceAfter=No
 35	裹面	_	NOUN	_	_	34	case:loc	_	SpaceAfter=No
 36	呢	_	PART	_	_	29	discourse:sp	_	SpaceAfter=No
@@ -9710,7 +9710,7 @@
 11	大家	_	PRON	_	_	12	nsubj	_	SpaceAfter=No
 12	提出	_	VERB	_	_	10	ccomp	_	SpaceAfter=No
 13	你	_	PRON	_	_	16	nmod	_	SpaceAfter=No
-14	個	_	NOUN	_	NounType=Clf	16	det	_	SpaceAfter=No
+14	個	_	NOUN	_	NounType=Clf	16	clf:det	_	SpaceAfter=No
 15	議程	_	NOUN	_	_	16	compound	_	SpaceAfter=No
 16	規程	_	NOUN	_	_	18	nmod	_	SpaceAfter=No
 17	嘅	_	PART	_	_	16	case	_	SpaceAfter=No
@@ -9796,7 +9796,7 @@
 12	呢	_	PART	_	_	10	discourse:sp	_	SpaceAfter=No
 13	，	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	今日	_	NOUN	_	_	17	nmod	_	SpaceAfter=No
-15	個	_	NOUN	_	NounType=Clf	17	det	_	SpaceAfter=No
+15	個	_	NOUN	_	NounType=Clf	17	clf:det	_	SpaceAfter=No
 16	規程	_	NOUN	_	_	17	compound	_	SpaceAfter=No
 17	問題	_	NOUN	_	_	22	nsubj	_	SpaceAfter=No
 18	呢	_	PART	_	_	17	discourse:sp	_	SpaceAfter=No
@@ -9808,7 +9808,7 @@
 24	有關	_	ADP	_	_	31	case	_	SpaceAfter=No
 25	依個	_	DET	_	_	26	det	_	SpaceAfter=No
 26	選舉	_	NOUN	_	_	28	nmod	_	SpaceAfter=No
-27	個	_	NOUN	_	NounType=Clf	28	det	_	SpaceAfter=No
+27	個	_	NOUN	_	NounType=Clf	28	clf:det	_	SpaceAfter=No
 28	過程	_	NOUN	_	_	30	nmod	_	SpaceAfter=No
 29	嘅	_	PART	_	_	28	case	_	SpaceAfter=No
 30	情況	_	NOUN	_	_	22	obj	_	SpaceAfter=No
@@ -9930,7 +9930,7 @@
 5	信	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
 6	有關	_	ADP	_	_	9	case	_	SpaceAfter=No
 7	佢	_	VERB	_	_	9	nmod	_	SpaceAfter=No
-8	個	_	NOUN	_	NounType=Clf	9	det	_	SpaceAfter=No
+8	個	_	NOUN	_	NounType=Clf	9	clf:det	_	SpaceAfter=No
 9	國籍	_	NOUN	_	_	14	nmod	_	SpaceAfter=No
 10	、	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	外國	_	NOUN	_	_	12	compound	_	SpaceAfter=No
@@ -10726,7 +10726,7 @@
 14	講	_	VERB	_	_	7	ccomp	_	SpaceAfter=No
 15	呀	_	PART	_	_	14	discourse:sp	_	SpaceAfter=No
 16	，	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
-17	個	_	NOUN	_	NounType=Clf	18	det	_	SpaceAfter=No
+17	個	_	NOUN	_	NounType=Clf	18	clf:det	_	SpaceAfter=No
 18	內容	_	NOUN	_	_	22	obl	_	SpaceAfter=No
 19	裏便	_	NOUN	_	_	18	obl	_	SpaceAfter=No
 20	呢	_	PART	_	_	18	discourse:sp	_	SpaceAfter=No
@@ -10975,7 +10975,7 @@
 4	呀	_	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 6	有	_	VERB	_	_	0	root	_	SpaceAfter=No
-7	個	_	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	個	_	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	人	_	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	吓	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -11339,9 +11339,9 @@
 8	誒	_	INTJ	_	_	3	discourse	_	SpaceAfter=No
 9	，	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	大家	_	PRON	_	_	14	nmod	_	SpaceAfter=No
-11	個	_	NOUN	_	NounType=Clf	14	det	_	SpaceAfter=No
+11	個	_	NOUN	_	NounType=Clf	14	clf:det	_	SpaceAfter=No
 12	投票	_	VERB	_	_	14	nmod	_	SpaceAfter=No
-13	個	_	NOUN	_	NounType=Clf	14	det	_	SpaceAfter=No
+13	個	_	NOUN	_	NounType=Clf	14	clf:det	_	SpaceAfter=No
 14	進程	_	NOUN	_	_	4	obj	_	SpaceAfter=No
 15	呢	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 16	，	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -11680,7 +11680,7 @@
 9	陣間	_	NOUN	_	_	10	obl:tmod	_	SpaceAfter=No
 10	係	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
 11	喺	_	ADP	_	_	19	case	_	SpaceAfter=No
-12	個	_	NOUN	_	NounType=Clf	19	det	_	SpaceAfter=No
+12	個	_	NOUN	_	NounType=Clf	19	clf:det	_	SpaceAfter=No
 13	選	_	VERB	_	_	19	acl	_	SpaceAfter=No
 14	主席	_	NOUN	_	_	13	obj	_	SpaceAfter=No
 15	嘅	_	PART	_	_	13	mark:rel	_	SpaceAfter=No
@@ -11690,7 +11690,7 @@
 19	投票	_	NOUN	_	_	23	reparandum	_	SpaceAfter=No
 20	裏便	_	NOUN	_	_	19	case:loc	_	SpaceAfter=No
 21	，	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
-22	個	_	NOUN	_	NounType=Clf	23	det	_	SpaceAfter=No
+22	個	_	NOUN	_	NounType=Clf	23	clf:det	_	SpaceAfter=No
 23	選舉	_	NOUN	_	_	27	obl	_	SpaceAfter=No
 24	裏便	_	NOUN	_	_	23	case:loc	_	SpaceAfter=No
 25	，	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -11749,7 +11749,7 @@
 1	噉	_	ADV	_	_	2	nsubj	_	SpaceAfter=No
 2	證明	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	我哋	_	PRON	_	_	5	nmod	_	SpaceAfter=No
-4	個	_	NOUN	_	NounType=Clf	5	det	_	SpaceAfter=No
+4	個	_	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	宣誓	_	NOUN	_	_	7	compound	_	SpaceAfter=No
 6	嘅	_	PART	_	_	5	case	_	SpaceAfter=No
 7	過程	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
@@ -12073,7 +12073,7 @@
 5	就	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	係	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	關於	_	ADP	_	_	11	case	_	SpaceAfter=No
-8	個	_	NOUN	_	NounType=Clf	11	det	_	SpaceAfter=No
+8	個	_	NOUN	_	NounType=Clf	11	clf:det	_	SpaceAfter=No
 9	議員	_	NOUN	_	_	11	nmod	_	SpaceAfter=No
 10	嘅	_	PART	_	_	9	case	_	SpaceAfter=No
 11	投票權	_	NOUN	_	_	6	obl	_	SpaceAfter=No
@@ -12601,7 +12601,7 @@
 7	，	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 8	我哋	_	PRON	_	_	11	compound	_	SpaceAfter=No
 9	有	_	VERB	_	_	11	acl	_	SpaceAfter=No
-10	啲	_	NOUN	_	NounType=Clf	11	det	_	SpaceAfter=No
+10	啲	_	NOUN	_	NounType=Clf	11	clf:det	_	SpaceAfter=No
 11	同事	_	NOUN	_	_	13	nsubj	_	SpaceAfter=No
 12	可能	_	AUX	_	_	13	aux	_	SpaceAfter=No
 13	對	_	VERB	_	_	28	advcl:coverb	_	SpaceAfter=No
@@ -12623,7 +12623,7 @@
 29	提出	_	VERB	_	_	28	ccomp	_	SpaceAfter=No
 30	咗	_	AUX	_	_	29	aux	_	SpaceAfter=No
 31	有	_	VERB	_	_	34	acl	_	SpaceAfter=No
-32	啲	_	NOUN	_	NounType=Clf	34	det	_	SpaceAfter=No
+32	啲	_	NOUN	_	NounType=Clf	34	clf:det	_	SpaceAfter=No
 33	嘅	_	PART	_	_	32	case	_	SpaceAfter=No
 34	意見	_	NOUN	_	_	29	obj	_	SpaceAfter=No
 35	，	_	PUNCT	_	_	29	punct	_	SpaceAfter=No
@@ -12851,7 +12851,7 @@
 25	，	_	PUNCT	_	_	31	punct	_	SpaceAfter=No
 26	或者	_	CCONJ	_	_	31	cc	_	SpaceAfter=No
 27	相關	_	ADJ	_	_	31	amod	_	SpaceAfter=No
-28	啲	_	NOUN	_	NounType=Clf	31	det	_	SpaceAfter=No
+28	啲	_	NOUN	_	NounType=Clf	31	clf:det	_	SpaceAfter=No
 29	文件	_	NOUN	_	_	31	nmod	_	SpaceAfter=No
 30	嘅	_	PART	_	_	29	case	_	SpaceAfter=No
 31	副本	_	NOUN	_	_	22	conj	_	SpaceAfter=No
@@ -13199,7 +13199,7 @@
 11	其實	_	ADV	_	_	16	advmod	_	SpaceAfter=No
 12	今	_	DET	_	_	15	det	_	SpaceAfter=No
 13	次	_	NOUN	_	NounType=Clf	12	clf	_	SpaceAfter=No
-14	個	_	NOUN	_	NounType=Clf	15	det	_	SpaceAfter=No
+14	個	_	NOUN	_	NounType=Clf	15	clf:det	_	SpaceAfter=No
 15	會議	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
 16	係	_	VERB	_	_	0	root	_	SpaceAfter=No
 17	好多	_	DET	_	_	18	det	_	SpaceAfter=No
@@ -13459,14 +13459,14 @@
 11	都	_	ADV	_	_	13	advmod	_	SpaceAfter=No
 12	要	_	AUX	_	_	13	aux	_	SpaceAfter=No
 13	畀	_	VERB	_	_	0	root	_	SpaceAfter=No
-14	個	_	NOUN	_	NounType=Clf	15	det	_	SpaceAfter=No
+14	個	_	NOUN	_	NounType=Clf	15	clf:det	_	SpaceAfter=No
 15	學生證	_	NOUN	_	_	13	iobj	_	SpaceAfter=No
 16	佢	_	PRON	_	_	13	obj	_	SpaceAfter=No
 17	睇	_	VERB	_	_	13	xcomp	_	SpaceAfter=No
 18	下	_	ADV	_	_	17	advmod	_	SpaceAfter=No
 19	我	_	PRON	_	_	24	nsubj	_	SpaceAfter=No
 20	係咪	_	ADV	_	_	24	advmod	_	SpaceAfter=No
-21	個	_	NOUN	_	NounType=Clf	22	det	_	SpaceAfter=No
+21	個	_	NOUN	_	NounType=Clf	22	clf:det	_	SpaceAfter=No
 22	學校	_	NOUN	_	_	24	nmod	_	SpaceAfter=No
 23	嘅	_	PART	_	_	22	case	_	SpaceAfter=No
 24	學生	_	NOUN	_	_	17	ccomp	_	SpaceAfter=No
@@ -13476,7 +13476,7 @@
 # sent_id = 855
 # text = 即係啲咁簡單嘅程序都完成唔到嘅話，成個立法會係不能夠取信於人㗎，主席。
 1	即係	_	ADV	_	_	16	advmod	_	SpaceAfter=No
-2	啲	_	NOUN	_	NounType=Clf	6	det	_	SpaceAfter=No
+2	啲	_	NOUN	_	NounType=Clf	6	clf:det	_	SpaceAfter=No
 3	咁	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	簡單	_	ADJ	_	_	6	amod	_	SpaceAfter=No
 5	嘅	_	PART	_	_	4	mark:rel	_	SpaceAfter=No
@@ -13566,7 +13566,7 @@
 29	能夠	_	AUX	_	_	30	aux	_	SpaceAfter=No
 30	完成	_	VERB	_	_	14	ccomp	_	SpaceAfter=No
 31	倒	_	VERB	_	_	30	compound:vv	_	SpaceAfter=No
-32	個	_	NOUN	_	NounType=Clf	34	det	_	SpaceAfter=No
+32	個	_	NOUN	_	NounType=Clf	34	clf:det	_	SpaceAfter=No
 33	宣誓	_	VERB	_	_	34	acl	_	SpaceAfter=No
 34	程序	_	NOUN	_	_	30	obj	_	SpaceAfter=No
 35	。	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -13663,7 +13663,7 @@
 13	成功	_	ADJ	_	_	15	advmod	_	SpaceAfter=No
 14	噉樣	_	ADV	_	_	13	mark:adv	_	SpaceAfter=No
 15	完成	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
-16	個	_	NOUN	_	NounType=Clf	17	det	_	SpaceAfter=No
+16	個	_	NOUN	_	NounType=Clf	17	clf:det	_	SpaceAfter=No
 17	程序	_	NOUN	_	_	15	obj	_	SpaceAfter=No
 18	，	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
 19	然後	_	ADV	_	_	20	advmod	_	SpaceAfter=No
@@ -13763,7 +13763,7 @@
 16	噉樣	_	ADV	_	_	15	mark:adv	_	SpaceAfter=No
 17	讀	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
 18	完	_	VERB	_	_	17	compound:vv	_	SpaceAfter=No
-19	個	_	NOUN	_	NounType=Clf	20	det	_	SpaceAfter=No
+19	個	_	NOUN	_	NounType=Clf	20	clf:det	_	SpaceAfter=No
 20	誓詞	_	NOUN	_	_	17	obj	_	SpaceAfter=No
 21	。	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
@@ -13968,7 +13968,7 @@
 7	係	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	，	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	連	_	ADV	_	_	15	advmod	_	SpaceAfter=No
-10	個	_	NOUN	_	NounType=Clf	11	det	_	SpaceAfter=No
+10	個	_	NOUN	_	NounType=Clf	11	clf:det	_	SpaceAfter=No
 11	居留權	_	NOUN	_	_	15	nsubj	_	SpaceAfter=No
 12	，	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
 13	都	_	ADV	_	_	15	advmod	_	SpaceAfter=No
@@ -15832,7 +15832,7 @@
 17	去	_	VERB	_	_	15	acl	_	SpaceAfter=No
 18	overrule	_	VERB	_	_	17	conj	_	SpaceAfter=No
 19	我哋	_	PRON	_	_	23	compound	_	SpaceAfter=No
-20	個	_	NOUN	_	NounType=Clf	23	det	_	SpaceAfter=No
+20	個	_	NOUN	_	NounType=Clf	23	clf:det	_	SpaceAfter=No
 21	《	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	議事	_	VERB	_	_	23	acl	_	SpaceAfter=No
 23	規則	_	NOUN	_	_	18	obj	_	SpaceAfter=No
@@ -16387,7 +16387,7 @@
 6	返	_	VERB	_	_	1	xcomp	_	SpaceAfter=No
 7	返	_	VERB	_	_	6	compound:dir	_	SpaceAfter=No
 8	去	_	VERB	_	_	10	case	_	SpaceAfter=No
-9	個	_	NOUN	_	NounType=Clf	10	det	_	SpaceAfter=No
+9	個	_	NOUN	_	NounType=Clf	10	clf:det	_	SpaceAfter=No
 10	席位	_	NOUN	_	_	6	obl	_	SpaceAfter=No
 11	嗰度	_	PRON	_	_	10	appos	_	SpaceAfter=No
 12	，	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -16610,7 +16610,7 @@
 4	呢	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	喺	_	ADP	_	_	0	root	_	SpaceAfter=No
-7	個	_	NOUN	_	NounType=Clf	8	det	_	SpaceAfter=No
+7	個	_	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	選舉	_	NOUN	_	_	6	obj	_	SpaceAfter=No
 9	裏便	_	NOUN	_	_	8	case:loc	_	SpaceAfter=No
 10	……	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
