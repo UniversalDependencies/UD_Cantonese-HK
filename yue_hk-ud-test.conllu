@@ -1767,7 +1767,7 @@
 1	愾	愾	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	你哋	你哋	PRON	_	_	5	nmod	_	SpaceAfter=No
-4	啲	啲	NOUN	_	_	5	det	_	SpaceAfter=No
+4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	嘢	嘢	NOUN	_	_	7	dislocated	_	SpaceAfter=No
 6	邊個	邊個	PRON	_	_	7	nsubj	_	SpaceAfter=No
 7	打	打	VERB	_	_	11	ccomp	_	SpaceAfter=No
@@ -3412,7 +3412,7 @@
 7	我哋	我哋	PRON	_	_	8	nsubj	_	SpaceAfter=No
 8	做	做	VERB	_	_	3	ccomp	_	SpaceAfter=No
 9	咗	咗	AUX	_	_	8	aux	_	SpaceAfter=No
-10	件	件	NOUN	_	_	16	det	_	SpaceAfter=No
+10	件	件	NOUN	_	NounType=Clf	16	clf:det	_	SpaceAfter=No
 11	好	好	ADV	_	_	12	advmod	_	SpaceAfter=No
 12	型	型	ADJ	_	_	16	amod	_	SpaceAfter=No
 13	好	好	ADV	_	_	14	advmod	_	SpaceAfter=No
@@ -4792,7 +4792,7 @@
 21	有陣時	有陣時	ADV	_	_	23	advmod	_	SpaceAfter=No
 22	就	就	ADV	_	_	23	advmod	_	SpaceAfter=No
 23	有	有	VERB	_	_	4	parataxis	_	SpaceAfter=No
-24	啲	啲	NOUN	_	_	25	det	_	SpaceAfter=No
+24	啲	啲	NOUN	_	NounType=Clf	25	clf:det	_	SpaceAfter=No
 25	旅客	旅客	NOUN	_	_	23	obj	_	SpaceAfter=No
 26	呀	呀	PART	_	_	23	discourse:sp	_	SpaceAfter=No
 27	，	，	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -4897,7 +4897,7 @@
 3	就	就	ADV	_	_	14	advmod	_	SpaceAfter=No
 4	落雨	落雨	VERB	_	_	9	advcl	_	SpaceAfter=No
 5	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	個	個	NOUN	_	_	7	det	_	SpaceAfter=No
+6	個	個	NOUN	_	NounType=Clf	7	clf:det	_	SpaceAfter=No
 7	電工	電工	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 8	唔	唔	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	畀	畀	VERB	_	_	14	advcl	_	SpaceAfter=No
@@ -4965,7 +4965,7 @@
 4	行	行	NOUN	_	NounType=Clf	2	obj	_	SpaceAfter=No
 5	呢	呢	PART	_	_	2	discourse:sp	_	SpaceAfter=No
 6	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
-7	啲	啲	NOUN	_	_	8	det	_	SpaceAfter=No
+7	啲	啲	NOUN	_	NounType=Clf	8	clf:det	_	SpaceAfter=No
 8	脾氣	脾氣	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 9	全部	全部	ADV	_	_	10	advmod	_	SpaceAfter=No
 10	變	變	VERB	_	_	0	root	_	SpaceAfter=No
@@ -14743,7 +14743,7 @@
 3	每	_	DET	_	_	5	det	_	SpaceAfter=No
 4	屆	_	NOUN	_	NounType=Clf	3	clf	_	SpaceAfter=No
 5	任期	_	NOUN	_	_	8	compound	_	SpaceAfter=No
-6	首	_	NOUN	_	_	8	det	_	SpaceAfter=No
+6	首	_	DET	_	_	8	det	_	SpaceAfter=No
 7	次	_	NOUN	_	NounType=Clf	6	clf	_	SpaceAfter=No
 8	會議	_	NOUN	_	_	13	obl	_	SpaceAfter=No
 9	上面	_	NOUN	_	_	8	case:loc	_	SpaceAfter=No
@@ -16406,7 +16406,7 @@
 3	剛才	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 4	呢	_	PART	_	_	3	discourse:sp	_	SpaceAfter=No
 5	，	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	個	_	NOUN	_	_	9	det	_	SpaceAfter=No
+6	個	_	NOUN	_	NounType=Clf	9	clf:det	_	SpaceAfter=No
 7	個	_	NOUN	_	NounType=Clf	6	clf	_	SpaceAfter=No
 8	會議	_	NOUN	_	_	9	compound	_	SpaceAfter=No
 9	進程	_	NOUN	_	_	15	nsubj	_	SpaceAfter=No
