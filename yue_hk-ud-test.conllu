@@ -5892,10 +5892,10 @@
 6	香港	香港	PROPN	_	_	4	obl	_	SpaceAfter=No
 7	呢	呢	PART	_	_	4	discourse:sp	_	SpaceAfter=No
 8	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	我	我	PRON	_	_	12	nsubj	_	SpaceAfter=No
-10	都	都	ADV	_	_	12	advmod	_	SpaceAfter=No
-11	希望	希望	AUX	_	_	12	aux	_	SpaceAfter=No
-12	搵	搵	VERB	_	_	4	conj	_	SpaceAfter=No
+9	我	我	PRON	_	_	11	nsubj	_	SpaceAfter=No
+10	都	都	ADV	_	_	11	advmod	_	SpaceAfter=No
+11	希望	希望	VERB	_	_	4	conj	_	SpaceAfter=No
+12	搵	搵	VERB	_	_	11	ccomp	_	SpaceAfter=No
 13	返	返	ADV	_	_	12	advmod	_	SpaceAfter=No
 14	我	我	PRON	_	_	16	nsubj	_	SpaceAfter=No
 15	自己	自己	PRON	_	_	16	advcl	_	SpaceAfter=No
@@ -9679,7 +9679,7 @@
 23	，	，	PUNCT	_	_	19	punct	_	SpaceAfter=No
 24	我	我	PRON	_	_	25	nsubj	_	SpaceAfter=No
 25	想	想	AUX	_	_	0	root	_	SpaceAfter=No
-26	希望	希望	AUX	_	_	25	conj	_	SpaceAfter=No
+26	希望	希望	VERB	_	_	25	conj	_	SpaceAfter=No
 27	大家	大家	PRON	_	_	28	nsubj	_	SpaceAfter=No
 28	係	係	VERB	_	_	25	ccomp	_	SpaceAfter=No
 29	回	回	VERB	_	_	28	ccomp	_	SpaceAfter=No
