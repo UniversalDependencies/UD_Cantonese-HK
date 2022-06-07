@@ -4860,7 +4860,7 @@
 7	琴師	琴師	NOUN	_	_	10	obj:periph	_	SpaceAfter=No
 8	都	都	ADV	_	_	10	advmod	_	SpaceAfter=No
 9	唔	唔	ADV	_	_	10	advmod	_	SpaceAfter=No
-10	使	使	AUX	_	_	4	parataxis	_	SpaceAfter=No
+10	使	使	VERB	_	_	4	parataxis	_	SpaceAfter=No
 11	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = 442
@@ -5012,14 +5012,14 @@
 4	啲	啲	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
 5	人	人	NOUN	_	_	7	obl	_	SpaceAfter=No
 6	又	又	ADV	_	_	7	advmod	_	SpaceAfter=No
-7	笑	笑	VERB	_	_	11	advcl	_	SpaceAfter=No
+7	笑	笑	VERB	_	_	10	advcl	_	SpaceAfter=No
 8	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	人哋	人哋	PRON	_	_	11	nsubj	_	SpaceAfter=No
-10	肯	肯	AUX	_	_	11	aux	_	SpaceAfter=No
-11	幫	幫	VERB	_	_	0	root	_	SpaceAfter=No
+9	人哋	人哋	PRON	_	_	10	nsubj	_	SpaceAfter=No
+10	肯	肯	VERB	_	_	0	root	_	SpaceAfter=No
+11	幫	幫	VERB	_	_	10	xcomp	_	SpaceAfter=No
 12	你	你	PRON	_	_	11	obj	_	SpaceAfter=No
-13	咖嘛	咖嘛	PART	_	_	11	discourse:sp	_	SpaceAfter=No
-14	。	。	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	咖嘛	咖嘛	PART	_	_	10	discourse:sp	_	SpaceAfter=No
+14	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = 450
 # text = 對即使啲乞兒呀，呢啲，呀，飲醉酒、醉貓呀，喺呢度飲醉酒呀，或者乞兒好臭呀，我都唔鬧佢哋嘅，照坐。
