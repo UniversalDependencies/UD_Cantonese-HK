@@ -10405,7 +10405,7 @@
 10	或者	或者	CCONJ	_	_	12	advmod	_	SpaceAfter=No
 11	未曾	未曾	ADV	_	_	12	advmod	_	SpaceAfter=No
 12	答	答	VERB	_	_	4	ccomp	_	SpaceAfter=No
-13	倒	倒	AUX	_	_	12	aux	_	SpaceAfter=No
+13	倒	倒	VERB	_	_	12	compound:vv	_	SpaceAfter=No
 14	你哋	你哋	PRON	_	_	16	nsubj	_	SpaceAfter=No
 15	所	所	PART	_	_	16	mark	_	SpaceAfter=No
 16	提問	提問	VERB	_	_	18	acl	_	SpaceAfter=No
@@ -11334,7 +11334,7 @@
 3	係	係	VERB	_	_	27	advcl	_	SpaceAfter=No
 4	影響	影響	VERB	_	_	3	ccomp	_	SpaceAfter=No
 5	唔	唔	ADV	_	_	6	advmod	_	SpaceAfter=No
-6	倒	倒	AUX	_	_	4	aux	_	SpaceAfter=No
+6	倒	倒	VERB	_	_	4	compound:vv	_	SpaceAfter=No
 7	，	，	PUNCT	_	_	4	punct	_	SpaceAfter=No
 8	誒	誒	INTJ	_	_	3	discourse	_	SpaceAfter=No
 9	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No
