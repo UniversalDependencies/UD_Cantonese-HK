@@ -5587,10 +5587,10 @@
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	都	都	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	係	係	VERB	_	_	0	root	_	SpaceAfter=No
-7	覺得	覺得	AUX	_	_	10	aux	_	SpaceAfter=No
+7	覺得	覺得	VERB	_	_	6	ccomp	_	SpaceAfter=No
 8	好	好	ADV	_	_	9	advmod	_	SpaceAfter=No
 9	難	難	ADJ	_	_	10	advmod	_	SpaceAfter=No
-10	接受	接受	VERB	_	_	6	ccomp	_	SpaceAfter=No
+10	接受	接受	VERB	_	_	7	ccomp	_	SpaceAfter=No
 11	囉	囉	PART	_	_	6	discourse:sp	_	SpaceAfter=No
 12	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No
 13	跟住	跟住	ADV	_	_	15	advmod	_	SpaceAfter=No
@@ -6191,24 +6191,24 @@
 
 # sent_id = 502
 # text = 噉我當時個內心都覺得好唔開心呀，覺得好似好委屈自己。
-1	噉	噉	ADV	_	_	10	discourse	_	SpaceAfter=No
-2	我	我	PRON	_	_	10	nsubj	_	SpaceAfter=No
-3	當時	當時	NOUN	_	_	10	obl:tmod	_	SpaceAfter=No
+1	噉	噉	ADV	_	_	7	discourse	_	SpaceAfter=No
+2	我	我	PRON	_	_	7	nsubj	_	SpaceAfter=No
+3	當時	當時	NOUN	_	_	7	obl:tmod	_	SpaceAfter=No
 4	個	個	NOUN	_	NounType=Clf	5	clf:det	_	SpaceAfter=No
-5	內心	內心	NOUN	_	_	10	obl	_	SpaceAfter=No
-6	都	都	ADV	_	_	10	advmod	_	SpaceAfter=No
-7	覺得	覺得	AUX	_	_	10	aux	_	SpaceAfter=No
+5	內心	內心	NOUN	_	_	7	obl	_	SpaceAfter=No
+6	都	都	ADV	_	_	7	advmod	_	SpaceAfter=No
+7	覺得	覺得	VERB	_	_	0	root	_	SpaceAfter=No
 8	好	好	ADV	_	_	10	advmod	_	SpaceAfter=No
 9	唔	唔	ADV	_	_	10	advmod	_	SpaceAfter=No
-10	開心	開心	ADJ	_	_	0	root	_	SpaceAfter=No
-11	呀	呀	PART	_	_	10	discourse:sp	_	SpaceAfter=No
-12	，	，	PUNCT	_	_	16	punct	_	SpaceAfter=No
-13	覺得	覺得	AUX	_	_	16	aux	_	SpaceAfter=No
+10	開心	開心	ADJ	_	_	7	xcomp	_	SpaceAfter=No
+11	呀	呀	PART	_	_	7	discourse:sp	_	SpaceAfter=No
+12	，	，	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	覺得	覺得	VERB	_	_	7	conj	_	SpaceAfter=No
 14	好似	好似	ADV	_	_	16	advmod	_	SpaceAfter=No
 15	好	好	ADV	_	_	16	advmod	_	SpaceAfter=No
-16	委屈	委屈	VERB	_	_	10	conj	_	SpaceAfter=No
+16	委屈	委屈	VERB	_	_	13	xcomp	_	SpaceAfter=No
 17	自己	自己	PRON	_	_	16	obj	_	SpaceAfter=No
-18	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No
+18	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = 503
 # text = 跟住呢，漸漸我識咗嗰啲客呀。之後呢，我覺得嗰啲客呢，都-都覺得係-好似當我係朋友噉囖。
@@ -6237,9 +6237,9 @@
 23	都	都	ADV	_	_	25	reparandum	_	SpaceAfter=No
 24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
 25	都	都	ADV	_	_	26	advmod	_	SpaceAfter=No
-26	覺得	覺得	AUX	_	_	27	aux	_	SpaceAfter=No
-27	係	係	VERB	_	_	30	reparandum	_	SpaceAfter=No
-28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	覺得	覺得	VERB	_	_	30	reparandum	_	SpaceAfter=No
+27	係	係	VERB	_	_	26	xcomp	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
 29	好似	好似	ADV	_	_	30	advmod	_	SpaceAfter=No
 30	當	當	VERB	_	_	17	ccomp	_	SpaceAfter=No
 31	我	我	PRON	_	_	30	obj	_	SpaceAfter=No
