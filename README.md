@@ -69,6 +69,9 @@ Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative 
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed validation errors.
+  * Added lemmas where they were missing.
 * 2019-03-11 v1.3
   * Data from the Legislative Council added
 * 2018-04-15 v1.2
@@ -82,7 +85,7 @@ Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: spoken
-Lemmas: manual native
+Lemmas: automatic
 UPOS: manual native
 XPOS: not available
 Features: manual native
