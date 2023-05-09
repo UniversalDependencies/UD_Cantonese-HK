@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Cantonese-HK:
-commit d119212efa415edfaa7831793bf675c27bc9392f
-Merge: 5ee1ff4 ba1dfe5
+commit fd7e8a89c19d3baf8701eb07ea1d16cf27ad88d3
+Merge: c5d4f03 74e0acd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 13918 of 13918 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.26636593284532.
@@ -24,7 +24,7 @@ Udapi:
 Udapi: found 4283 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 13918 words.
 Genres: found 1 out of 17 known.
-validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
