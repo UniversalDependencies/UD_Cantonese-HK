@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Cantonese-HK:
-commit 209d4a954039593902921e66b92c4a3e716513d9
+commit 80949021ee295c6b99211862fcbcf0f057e9c330
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 09:32:54 2023 +0200
+Date:   Mon Nov 6 11:33:16 2023 +0100
 Size: counted 13918 of 13918 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.26636593284532.
 Size: maximum value 13.815511 is for 1000000 words or more.
