@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Cantonese-HK:
-commit 80949021ee295c6b99211862fcbcf0f057e9c330
+commit dbb570cc268ac83fdc6cbcb1e840e11c7d3f3f50
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:33:16 2023 +0100
+Date:   Sun May 5 11:56:17 2024 +0200
 Size: counted 13918 of 13918 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.26636593284532.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,18 @@ Udapi: found 4283 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 13918 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
+[Line 8234 Sent 651 Node 17]: [L3 Warning leaf-clf] 'clf' not expected to have children (17:個:clf --> 18:嘅:case)
+[Line 8327 Sent 655 Node 14]: [L3 Warning leaf-clf] 'clf' not expected to have children (14:個:clf --> 12:依:det)
+[Line 8330 Sent 655 Node 14]: [L3 Warning leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
+[Line 8389 Sent 657 Node 3]: [L3 Warning leaf-clf] 'clf' not expected to have children (3:啲:clf --> 4:嘅:case)
+[Line 8404 Sent 658 Node 10]: [L3 Warning leaf-clf] 'clf' not expected to have children (10:個:clf --> 8:依:det)
+[Line 8567 Sent 661 Node 14]: [L3 Warning leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
+[Line 8919 Sent 674 Node 16]: [L3 Warning leaf-clf] 'clf' not expected to have children (16:個:clf --> 14:呢:det)
+[Line 8973 Sent 675 Node 32]: [L3 Warning leaf-clf] 'clf' not expected to have children (32:個:clf --> 31:一:nummod)
+[Line 9215 Sent 685 Node 16]: [L3 Warning leaf-clf] 'clf' not expected to have children (16:個:clf --> 17:嘅:case)
+[Line 9559 Sent 697 Node 23]: [L3 Warning leaf-clf] 'clf' not expected to have children (23:個:clf --> 21:依:det)
+...suppressing further errors regarding Warning
+Warnings: 26
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
