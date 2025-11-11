@@ -69,6 +69,9 @@ Tak-sum WONG, Kim GERDES, Herman LEUNG, and John LEE. "Quantitative Comparative 
 
 # Changelog
 
+* 2025-09-12 v2.16
+  * add parallel corpus information to machine-readable metadata
+  * add parallel data support with parallel_id metadata
 * 2022-11-15 v2.11
   * Fixed validation errors.
   * Added lemmas where they were missing.
@@ -84,6 +87,7 @@ Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: hk
 Genre: spoken
 Lemmas: automatic
 UPOS: manual native
