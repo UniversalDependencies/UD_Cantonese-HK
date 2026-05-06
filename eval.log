@@ -1,64 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Cantonese-HK:
-commit ac269cf698196821e2d67a206584c4e35608abd9
-Merge: 5b96f99 fcc7dd5
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'yue_hk'
-Language code (from CoNLL-U file name) = 'yue'
-Found the following data files: yue_hk-ud-test.conllu
-Size: counted 13918 of 13918 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.26636593284532.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 0.4.
-Universal POS tags: 15 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 1.
-Features: 479 out of 13918 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
-Universal relations: 31 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 1.
-Genres: found 1 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang yue --max-err=10 UD_Cantonese-HK/yue_hk-ud-test.conllu
-[Line 4 Sent 1]: [L3 Warning pron-det-without-prontype] The word '你 nei5' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 7 Sent 1]: [L3 Warning pron-det-without-prontype] The word '乜嘢 mat1je5' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 33 Sent 3]: [L3 Warning pron-det-without-prontype] The word '嗰啲' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 46 Sent 4]: [L3 Warning pron-det-without-prontype] The word '呢啲' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 82 Sent 7]: [L3 Warning pron-det-without-prontype] The word '佢' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 94 Sent 7]: [L3 Warning pron-det-without-prontype] The word '我哋' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 101 Sent 8]: [L3 Warning pron-det-without-prontype] The word '呢啲' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 127 Sent 10]: [L3 Warning pron-det-without-prontype] The word '我' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 144 Sent 11]: [L3 Warning pron-det-without-prontype] The word '你' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 150 Sent 11]: [L3 Warning pron-det-without-prontype] The word '你' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 542 Sent 51]: [L3 Syntax too-many-objects] Multiple direct objects [5, 7] ('錢', '我') under the predicate '畀'.
-[Line 556 Sent 52]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('呢啲', '你') under the predicate '畀'.
-[Line 5533 Sent 451]: [L3 Syntax too-many-objects] Multiple direct objects [9, 14] ('財氣', '福氣') under the predicate '有'.
-[Line 7503 Sent 537]: [L3 Syntax too-many-objects] Multiple direct objects [9, 16] ('新秀', '新秀') under the predicate '參加'.
-[Line 8885 Sent 651]: [L3 Syntax leaf-clf] 'clf' not expected to have children (17:個:clf --> 18:嘅:case)
-[Line 8982 Sent 655]: [L3 Syntax leaf-clf] 'clf' not expected to have children (14:個:clf --> 12:依:det)
-[Line 8985 Sent 655]: [L3 Syntax leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
-[Line 9046 Sent 657]: [L3 Syntax leaf-clf] 'clf' not expected to have children (3:啲:clf --> 4:嘅:case)
-[Line 9062 Sent 658]: [L3 Syntax leaf-clf] 'clf' not expected to have children (10:個:clf --> 8:依:det)
-[Line 9228 Sent 661]: [L3 Syntax leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
-...suppressing further errors regarding Syntax
-Syntax errors: 32
-Warnings: 1514
-*** FAILED *** with 32 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=0.4) = 0.0444444444444444
-(weight=0.37037037037037) * (score{size}=0.381192277386332) = 0.141182324957901
-(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
-(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
-(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.441450436206404) * (availability=1) * (validity=0.01) = 0.00441450436206404
-STARS = 0
-UD_Cantonese-HK	0.00441450436206404	0
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
