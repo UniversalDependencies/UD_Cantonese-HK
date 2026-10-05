@@ -1185,7 +1185,7 @@
 2	呢	呢	PART	_	_	1	discourse:sp	_	SpaceAfter=No
 3	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
 4	同	同	ADP	_	_	5	case	_	SpaceAfter=No
-5	阿哥	阿哥	NOUN	_	_	1	obl	_	SpaceAfter=No
+5	阿哥	阿哥	NOUN	_	_	1	nmod	_	SpaceAfter=No
 6	細細個	細細個	NOUN	_	_	15	obl:tmod	_	SpaceAfter=No
 7	嗰陣時	嗰陣時	ADP	_	_	6	case	_	SpaceAfter=No
 8	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -6207,7 +6207,7 @@
 # text = 每一個歌手都有一個藝名，有一個唱歌嘅名嚟嘅，藝名嚟嘅。
 1	每	每	DET	_	_	3	det	_	SpaceAfter=No
 2	一	一	NUM	_	_	3	nummod	_	SpaceAfter=No
-3	個	個	NOUN	_	NounType=Clf	4	obl	_	SpaceAfter=No
+3	個	個	NOUN	_	NounType=Clf	4	nmod	_	SpaceAfter=No
 4	歌手	歌手	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 5	都	都	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	有	有	VERB	_	_	0	root	_	SpaceAfter=No
@@ -6522,7 +6522,7 @@
 23	，	，	PUNCT	_	_	21	punct	_	SpaceAfter=No
 24	你	你	PRON	_	_	27	nsubj	_	SpaceAfter=No
 25	喺	喺	ADP	_	_	26	case	_	SpaceAfter=No
-26	香港	香港	PROPN	_	_	28	obl	_	SpaceAfter=No
+26	香港	香港	PROPN	_	_	28	nmod	_	SpaceAfter=No
 27	做	做	VERB	_	_	38	csubj	_	SpaceAfter=No
 28	歌手	歌手	NOUN	_	_	27	obj	_	SpaceAfter=No
 29	呢	呢	PART	_	_	27	discourse:sp	_	SpaceAfter=No
@@ -8755,7 +8755,7 @@
 3	爸	爸	NOUN	_	_	1	conj	_	SpaceAfter=No
 4	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No
 5	八	八	NUM	_	_	6	nummod	_	SpaceAfter=No
-6	日	日	NOUN	_	NounType=Clf	13	obl:tmod	_	SpaceAfter=No
+6	日	日	NOUN	_	NounType=Clf	13	nmod:tmod	_	SpaceAfter=No
 7	七	七	NUM	_	_	8	nummod	_	SpaceAfter=No
 8	夜	夜	NOUN	_	NounType=Clf	6	conj	_	SpaceAfter=No
 9	吉隆坡	吉隆坡	PROPN	_	_	13	nmod	_	SpaceAfter=No
@@ -11477,7 +11477,7 @@
 16	，	，	PUNCT	_	_	14	punct	_	SpaceAfter=No
 17	個	個	NOUN	_	NounType=Clf	18	clf:det	_	SpaceAfter=No
 18	內容	內容	NOUN	_	_	22	obl	_	SpaceAfter=No
-19	裏便	裏便	NOUN	_	_	18	obl	_	SpaceAfter=No
+19	裏便	裏便	NOUN	_	_	18	nmod	_	SpaceAfter=No
 20	呢	呢	PART	_	_	18	discourse:sp	_	SpaceAfter=No
 21	，	，	PUNCT	_	_	18	punct	_	SpaceAfter=No
 22	係	係	VERB	_	_	14	ccomp	_	SpaceAfter=No
@@ -14546,7 +14546,7 @@
 6	秘書長	秘書長	NOUN	_	_	11	nmod	_	SpaceAfter=No
 7	陳維安	陳維安	PROPN	_	_	6	appos	_	SpaceAfter=No
 8	佢	佢	PRON	_	_	6	appos	_	SpaceAfter=No
-9	頭先	頭先	NOUN	_	_	11	obl:tmod	_	SpaceAfter=No
+9	頭先	頭先	NOUN	_	_	11	nmod:tmod	_	SpaceAfter=No
 10	嘅	嘅	PART	_	_	9	case	_	SpaceAfter=No
 11	決定	決定	NOUN	_	_	25	nsubj	_	SpaceAfter=No
 12	呢	呢	PART	_	_	11	discourse:sp	_	SpaceAfter=No

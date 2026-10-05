@@ -36,7 +36,7 @@
     <feat name="NounType" value="Clf" upos="NOUN">479</feat><!-- 個, 啲, 蚊, 條, 位, 年, 次, 點, 份, 封 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="49">
+  <deps unique="50">
     <dep name="acl">176</dep>
     <dep name="advcl">234</dep>
     <dep name="advcl:coverb">70</dep>
@@ -69,17 +69,18 @@
     <dep name="mark">151</dep>
     <dep name="mark:adv">10</dep>
     <dep name="mark:rel">107</dep>
-    <dep name="nmod">239</dep>
+    <dep name="nmod">243</dep>
+    <dep name="nmod:tmod">2</dep>
     <dep name="nsubj">924</dep>
     <dep name="nsubj:pass">1</dep>
     <dep name="nsubj:periph">13</dep>
     <dep name="nummod">206</dep>
     <dep name="obj">909</dep>
     <dep name="obj:periph">28</dep>
-    <dep name="obl">186</dep>
+    <dep name="obl">182</dep>
     <dep name="obl:agent">3</dep>
     <dep name="obl:patient">2</dep>
-    <dep name="obl:tmod">138</dep>
+    <dep name="obl:tmod">136</dep>
     <dep name="parataxis">143</dep>
     <dep name="punct">2729</dep>
     <dep name="reparandum">165</dep>
