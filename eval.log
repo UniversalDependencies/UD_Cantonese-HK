@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Cantonese-HK:
-commit 02dacd204d591fd61da536be54cb37dd18ecfafc
+commit da856710377db54ee99eb082cdf84cf05996aedc
+Merge: 68c3151 2704e22
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 12:06:11 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'yue_hk'
 Language code (from CoNLL-U file name) = 'yue'
@@ -38,18 +38,18 @@ Genres: found 1 out of 18 known.
 ...suppressing further messages regarding WARNING/MORPHO
 [Line 542 Sent 51]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 7] ('錢', '我') under the predicate '畀'.
 [Line 556 Sent 52]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 6] ('呢啲', '你') under the predicate '畀'.
-[Line 1188 Sent 109]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] '我') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 5533 Sent 451]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 14] ('財氣', '福氣') under the predicate '有'.
-[Line 6210 Sent 483]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] '歌手') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6525 Sent 494]: [L3 SYNTAX obl-should-be-nmod] The parent (node [28] '歌手') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 7503 Sent 537]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 16] ('新秀', '新秀') under the predicate '參加'.
-[Line 8758 Sent 642]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] '旅') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 8885 Sent 651]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (17:個:clf --> 18:嘅:case)
 [Line 8982 Sent 655]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (14:個:clf --> 12:依:det)
+[Line 8985 Sent 655]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
+[Line 9046 Sent 657]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (3:啲:clf --> 4:嘅:case)
+[Line 9062 Sent 658]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (10:個:clf --> 8:依:det)
+[Line 9228 Sent 661]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (14:個:clf --> 15:嘅:case)
 ...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 1508
-SYNTAX errors: 38
-*** FAILED *** with 38 errors
+SYNTAX errors: 32
+*** FAILED *** with 32 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
